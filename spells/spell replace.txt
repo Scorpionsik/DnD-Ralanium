@@ -1,0 +1,34 @@
+(Creation) = (Созидание) 
+(Compulsion) = (Принуждение)
+(Glamer) = (Морок) 
+(harmless) = (без вреда)
+(Scrying) = (Предсказание)
+(Healing) = (Лечение)
+(Charm) = (Очарование)
+(Summoning) = (Призывание)
+(Figment) = (Вымысел)
+(Pattern) = (Узоры)
+
+[Acid] = [Кислота]
+[Air] = [Воздух]
+[Water] = [Вода]
+[Earth] = [Земля]
+[Cold] = [Холод]
+[Force] = [Энергия]
+[Sonic] = [Звук]
+[Mind-Affecting] = [Влияющее на разум]
+[Language-Dependent] = [Языковое]
+[Light] = [Свет]
+[Darkness] = [Тьма]
+[Fear] = [Страх]
+[Death] = [Смерть]
+[Electricity] = [Электричество]
+
+emanation - излучение
+Universal - Универсальное
+Target, Effect, or Area - Цель, Эффект или Область эффекта
+
+
+
+нету в книге:
+#reduce_person

@@ -1,0 +1,1837 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0" xmlns:l="http://www.w3.org/1999/xlink">
+ <description>
+  <title-info>
+   <genre>sf_fantasy</genre>
+   <author>
+    <first-name></first-name>
+    <last-name></last-name>
+   </author>
+   <book-title>Описание навыков</book-title>
+   <annotation>
+    <p>Введите сюда краткую аннотацию</p>
+   </annotation>
+   <date></date>
+   <lang>ru</lang>
+  </title-info>
+  <document-info>
+   <author>
+    <first-name>Your</first-name>
+    <last-name>Name</last-name>
+   </author>
+   <program-used>FictionBook Editor Release 2.6.7</program-used>
+   <date value="2014-11-10">10 November 2014</date>
+   <id>1376E301-B938-4226-8B2C-02121DE69DAE</id>
+   <version>1.0</version>
+   <history>
+    <p>1.0 — создание файла</p>
+   </history>
+  </document-info>
+ </description>
+ <body>
+  <section>
+   <title>
+    <p>Основное</p>
+   </title>
+   <section>
+    <title>
+     <p>Получение очков навыков</p>
+    </title>
+    <p>Вы получаете очки навыков, в зависимости от выбранного класса при создании персонажа (или получении уровня) + модификатор Интеллекта (даже если модификатор отрицательный, но нельзя опустить количество очков навыков таким образом ниже 1) + расовые или классовые особенности; при создании персонажа это количество дополнительно умножается на 4.</p>
+    <p>- Максимальное количество рангов в классовых навыках = 3 + уровень персонажа.</p>
+    <p>- Максимальное количество рангов в не-классовых навыках = максимальное количество рангов в классовых навыках / 2 с округлением вниз.</p>
+   </section>
+   <section>
+    <title>
+     <p>Использование</p>
+    </title>
+    <p>Для проверки навыка киньте 1d20. Модификаторы суммируются между собой (включая расовые бонусы, штрафы за броню и т.д.), и добавляются к результату броска. Чем выше результат, тем лучше. </p>
+    <p><strong>Внимание: </strong>Выпадение 20 – это не автоматический успех, а выпадение 1 не автоматический провал (как в правилах боя).</p>
+   </section>
+   <section>
+    <title>
+     <p>Уровень сложности</p>
+    </title>
+    <p>Некоторое проверки делаются против Уровня Сложности (УС). УС – это число, устанавливаемое Мастером, которое вы должны «побить» броском проверки навыков. Например, УС для того, что вскарабкаться на внешнюю стену разрушенной башни = 15. Чтобы взобраться на стену, вы должны выкинуть бросок навыка Лазание 15 и больше. Проверка Лазания – это бросок кубика 1d20 плюс ранги Лазания (если они есть) плюс модификатор Силы плюс любые другие модификаторы. </p>
+    <table>
+     <tr align="left">
+      <td align="left" valign="top"><strong>Уровень Сложности</strong> </td>
+      <td align="left" valign="top"><strong>Пример (Использованный навык)</strong> </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Очень просто (0) </td>
+      <td align="left" valign="top">Заметить что-либо огромное в поле зрения (Внимательность) </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Просто (5) </td>
+      <td align="left" valign="top">Забраться по веревке с узлами (Лазанье) </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Средне (10) </td>
+      <td align="left" valign="top">Услышать приближающегося стражника (Тонкий слух) </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Тяжко (15) </td>
+      <td align="left" valign="top">Сломать колесо телеги (Поломка устройства) </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Довольно трудно (20) </td>
+      <td align="left" valign="top">Плыть в шторм (Плавание) </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Очень трудно (25) </td>
+      <td align="left" valign="top">Открыть средний замок (Взлом замков) </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Безумно сложно (30) </td>
+      <td align="left" valign="top">Прыжок через 30-футовую пропасть (Прыжки) </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Практически невозможно (40) </td>
+      <td align="left" valign="top">Выследить отряд орков, прошедший по склону горы неделю назад во время мусонного дождя (Выживание) </td>
+     </tr>
+    </table>
+   </section>
+   <section>
+    <title>
+     <p>Взаимные проверки</p>
+    </title>
+    <p>Некоторые проверки являются взаимными. Они делаются против случайного числа, которое обычно является результатом проверки навыка другого персонажа. Например, чтобы подкрасться к стражнику, вам нужно побить результат проверки умения Тонкий слух стражника результатом вашей проверки Бесшумного передвижения. Вы делаете проверку навыка Бесшумное передвижение, а Мастер за стражника делает проверку Тонкого слуха. Тот, кто выкинет лучший результат, побеждает. </p>
+    <p>- Если на взаимных проверках получилась ничья, выигрывает персонаж игрока с более высокой ключевым параметром способности. Так, при проверке Бесшумного передвижения против проверки Тонкого слуха выпала ничья, и тогда Ловкость крадущегося сравнивается с Мудростью слушающего. Если и эти показатели равны, выигрывает тот кто проверял взаимный навык. Так, когда проверяется Бесшумное передвижение против Тонкого слуха, если результаты и параметры равны, выигрывает тот кто делал проверку Тонкого слуха. </p>
+    <p>- В случае, если проверка идёт <emphasis>против персонажей Мастера</emphasis>, при ничьей всегда побеждают персонажи игроков (без проверки параметров).</p>
+    <table>
+     <tr align="left">
+      <td align="left" valign="top"><strong>Задача</strong> </td>
+      <td align="left" valign="top"><strong>Навык (Ключевая характеристика)</strong> </td>
+      <td align="left" valign="top"><strong>Взаимный навык (Ключевая характеристика)</strong> </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Красться за кем-либо </td>
+      <td align="left" valign="top">Бесшумное передвижение (ЛОВ) </td>
+      <td align="left" valign="top">Тонкий слух (МДР) </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Обмануть кого-либо </td>
+      <td align="left" valign="top">Блеф (ХАР) </td>
+      <td align="left" valign="top">Чувство правды (МДР) </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Спрятаться от кого-либо </td>
+      <td align="left" valign="top">Скрытность (ЛОВ) </td>
+      <td align="left" valign="top">Внимательность (МДР) </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Надежно связать пленника </td>
+      <td align="left" valign="top">Использование верёвки (ЛОВ) </td>
+      <td align="left" valign="top">Мастерство побега (ЛОВ) </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Выиграть скачки </td>
+      <td align="left" valign="top">Верховая езда (ЛОВ) </td>
+      <td align="left" valign="top">Верховая езда (ЛОВ) </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Выдать себя за кого-либо другого </td>
+      <td align="left" valign="top">Гримировка (ХАР) </td>
+      <td align="left" valign="top">Внимательность (МДР) </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Украсть кошелек </td>
+      <td align="left" valign="top">Ловкость рук (ЛОВ) </td>
+      <td align="left" valign="top">Внимательность (МДР) </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Нарисовать фальшивую карту </td>
+      <td align="left" valign="top">Подделка (ИНТ) </td>
+      <td align="left" valign="top">Подделка (ИНТ) </td>
+     </tr>
+    </table>
+   </section>
+   <section>
+    <title>
+     <p>Повторная попытка</p>
+    </title>
+    <p>Обычно, если у вас не получилось с первого раза, вы можете попробовать применить свой навык еще раз, и таких попыток может быть бессчетное множество. Некоторые навыки, однако, имеют условия провала попытки, которые необходимо знать. Некоторые навыки бесполезны после того, как первая попытка была провалена. Для большинства навыков в случае успеха повторные проверки бессмысленны.</p>
+    <p>Например, если Лидда-плут провалила проверку Взлома замков, она может попытаться еще несколько раз. Если, однако, срабатывает ловушка в замке, когда Лидда проваливает проверку умения Взлома при результате 5 и менее, тогда провал имеет свои штрафы. </p>
+    <p>Точно также, если Лидда проваливает проверку Лазания, она может продолжать пробовать, но если она проваливает попытку при 5 и менее, она падает (после чего может подняться и пытаться залезть снова). </p>
+    <p>Если у Тордека отрицательные хиты, и он умирает, Лидда может сделать попытку применить навык Лечения без тренировки, чтобы стабилизировать его состояние. Если проверка провалена, Тордек, вероятно, потеряет еще хиты, но Лидда может попробовать снова в следующем раунде. </p>
+    <p>Если у умения нет штрафов за провал, вы можете «брать 20» и считать, что вы пытались достаточно долго, чтобы у вас получилось (см. Проверки без бросков).</p>
+   </section>
+   <section>
+    <title>
+     <p>Проверка навыка без тренировок</p>
+    </title>
+    <p>Обычно, если вы пытаетесь применять навык, которым вы не обладаете, вы кидаете обычную проверку, без учётов рангов (так как он все равно равен 0). Вы можете прибавить к результату другие значения, например, модификатор ключевой характеристики навыка.  </p>
+    <p>Многие навыки можно использовать только после тренировки. Если у вас нет рангов в навыке Искусство магии, то вы, не смотря на ваш класс, значение характеристик и уровень, просто не имеете достаточно знаний о магии, даже чтобы идентифицировать заклинание. Умения, которые нельзя использовать без тренировки, помечены в таблице ниже, колонка «Нетренированный».</p>
+   </section>
+   <section>
+    <title>
+     <p>Благоприятные и неблагоприятные условия</p>
+    </title>
+    <p>Некоторые ситуации могут облегчить проверку или усложнить ее, что выражается в бонусах или штрафах к модификатору навыка. Для Краска, с его умением Выживания, пара пустяков настрелять достаточно дичи, когда он целый день охотится в лесу, но добыть пищу в бесплодной пустыне значительно сложнее. </p>
+    <p>Мастер может изменять шансы успеха четырьмя разными способами для различных обстоятельств:</p>
+    <p>1. Дать носителю умения ситуационный бонус +2, который отражает обстоятельства, благоприятствующие проверке, такие как первоклассные инструменты для работы, помощь со стороны других персонажей (см. Попытки совместного применения навыков), или владение необычной уточняющей информацией. </p>
+    <p>2. Наложить на носителя умения ситуационный штраф -2, который отражает обстоятельства, не благоприятствующие проверке, такие как вынужденное использование плохих инструментов или владение неверной информацией. </p>
+    <p>3. Сокращение УС на 2, что отражает обстоятельства, делающие задачу проще, такие как дружелюбно настроенная аудитория или выполнение работы, которую можно сделать спустя рукава.</p>
+    <p>4. Увеличение УС на 2, что отражает обстоятельства, делающие задачу сложнее, такие как враждебно настроенная аудитория или выполнение работы, которую необходимо выполнить качественно. </p>
+    <p>Обстоятельства, влияющие на вашу способность применять умение, изменяют ваш модификатор. Обстоятельства, которые изменяют качество исполнения задачи, изменяют УС. Бонус к вашему модификатору умения и сокращение УС дает одинаковый результат: они дают лучший шанс на успех. Но они представляют разные обстоятельства, и иногда это важно. </p>
+    <p>Увеличение или сокращение УС в основном балансирует между 2 и 5, на усмотрение Мастера. </p>
+   </section>
+   <section>
+    <title>
+     <p>Время применения навыков</p>
+    </title>
+    <p>Применение навыков может вообще не занимать времени, занять раунд или несколько раундов и даже больше. Большинство навыков укладываются в стандартные действия, в действия, эквивалентные передвижению или в полные действия. Типы действий определяют то, насколько долго длится применение навыков в терминах боевого раунда (6 секунд) и как быть с передвижением. Некоторые проверки умения мгновенны и представляют реакцию на события, или включаются в действие как его часть. Расстояние прыжка при проверке навыка Прыжков, например, - это часть вашего движения. Некоторые навыки занимают больше одного раунда, а описание навыка зачастую указывает, как долго он длится.  </p>
+   </section>
+   <section>
+    <title>
+     <p>Практически невозможные задачи</p>
+    </title>
+    <p>Иногда вы хотите сделать то, что кажется практически невозможным. Чтобы совершить подобное, нужно чтобы у вас был ранг навыка по меньшей мере 10+, и при этом штраф –20 или УС +20.</p>
+    <p>Практически невозможные задачи трудно совершить. Сорвать замок одним быстрым ударом; переплыть водопад; смягчить сердце демона песней – вот примеры практически невозможного. </p>
+    <p>Мастер решает, что в действительности является невозможным. Просто помните, что персонаж с очень высоким модификатором навыка может выполнить даже невозможное, почти неслыханное.  </p>
+   </section>
+   <section>
+    <title>
+     <p>Проверки без бросков</p>
+    </title>
+    <p>Проверка представляет собой попытку добиться какой-либо цели, обычно при нехватке времени. </p>
+    <p><strong>«Взять 10»:</strong> Когда вы не торопитесь, и вам не угрожают и не мешают, вы можете «взять 10». Вместо броска 1d20 для проверки умения высчитайте результат, как если бы вы выкинули 10. Для многих повседневных задач это означает автоматический успех. Невозможно «взять 10», если вам мешают или на вас нападают. </p>
+    <p>Если мастер проводит скрытые проверки, он может «взять 10» вместо броска игрока (следуя вышеуказанным правилам), чтобы не вызвать подозрения среди игроков, если они не заявляли необходимые для проверок действия (например некто скрытно следует за партией. Если партия не делает попыток осматриваться, вместо бросков Внимательности игроков Мастер может «взять 10» на Внимательность с самым высоким модификатором данного навыка среди партии).</p>
+    <p><strong>«Взять 20»:</strong>  Когда у вас полно времени (обычно 2 минуты для умения, которое обычно проверяется за 1 раунд, за одно полное действие или за одно стандартное действие), и если у умения нет штрафов за провал, вы можете «взять 20». Другими словами, вероятно, что вы, в конце концов, добьетесь этого результата, бросая 1d20. Вместо бросков сосчитайте ваш результат, как если бы вы кинули 1d20 и выкинули 20. «Взять 20» означает, что вы пытаетесь, пока у вас не получается. Это занимает примерно в двадцать раз больше времени. </p>
+    <p><strong>Внимание:</strong> Мастер вправе позволить или запретить использование вышеуказанных приёмов в определенные моменты игры.</p>
+   </section>
+   <section>
+    <title>
+     <p>Совместное применение навыков</p>
+    </title>
+    <p>Несколько персонажей (или даже вся группа) может применить попытку совместного применения навыка. В этом случае, каждый участник проводит проверку необходимого навыка, используя все бонусы и штрафы, как обычно. После, если половина участников (с округлением  вверх) успешно прошла данную проверку, считается что вся группа прошла проверку. </p>
+   </section>
+   <section>
+    <title>
+     <p>Синергия навыков</p>
+    </title>
+    <table>
+     <tr align="left">
+      <td align="left" valign="top"><strong>Каждые 5 рангов в…</strong> </td>
+      <td align="left" valign="top"><strong>Дает бонус +2 к проверкам…</strong> </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Блеф </td>
+      <td align="left" valign="top">Дипломатия; Гримировка (в гуманоида); Запугивание</td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Ремесло </td>
+      <td align="left" valign="top">Оценка (связанная с ремеслом) </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Расшифровка </td>
+      <td align="left" valign="top">Использование магических устройств (для свитков) </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Мастерство побега </td>
+      <td align="left" valign="top">Использование верёвки </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Дрессировка </td>
+      <td align="left" valign="top">Верховая езда; классовое умение «Сопереживание дикой природе» </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Прыжки </td>
+      <td align="left" valign="top">Акробатика </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Знание (Магия) </td>
+      <td align="left" valign="top">Искусство магии </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Знание (Архитектура и инженерия) </td>
+      <td align="left" valign="top">Поиск (на предмет секретных дверей и подобных конструкций) </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Знание (Подземелья) </td>
+      <td align="left" valign="top">Выживание (под землей) </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Знание (География) </td>
+      <td align="left" valign="top">Выживание (чтобы не блуждать и избежать опасности) </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Знание (История) </td>
+      <td align="left" valign="top">классовое умение «Знание барда» </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Знание (Местное) </td>
+      <td align="left" valign="top">Сбор информации </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Знание (Природа) </td>
+      <td align="left" valign="top">Выживание (на поверхности земли) </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Знание (Дворянство и Короли) </td>
+      <td align="left" valign="top">Дипломатия </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Знание (Религия) </td>
+      <td align="left" valign="top">классовое умение «Изгнать/подчинить нежить» </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Знание (Измерения) </td>
+      <td align="left" valign="top">Выживание (в иных измерениях существования) </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Поиск </td>
+      <td align="left" valign="top">Выживание (при выслеживании) </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Чувство правды </td>
+      <td align="left" valign="top">Дипломатия </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Искусство магии </td>
+      <td align="left" valign="top">Использование магических устройств </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Выживание </td>
+      <td align="left" valign="top">Знание (Природа) </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Акробатика </td>
+      <td align="left" valign="top">Балансирование; Прыжки </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Использование магических устройств </td>
+      <td align="left" valign="top">Искусство магии </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Использование верёвки </td>
+      <td align="left" valign="top">Мастерство побега (когда связан веревками); Лазание (по веревкам) </td>
+     </tr>
+    </table>
+    <p>Данная таблица может дополняться Мастером, более подробную информацию уточняйте у него.</p>
+   </section>
+   <section>
+    <title>
+     <p>Проверка характеристик</p>
+    </title>
+    <p>Иногда вы пытаетесь сделать что-либо, для чего не существует отдельного навыка. В таком случае делайте проверку характеристики. Это бросок 1d20 плюс модификатор характеристики. По сути, вы делаете проверку навыка без тренировки. Мастер устанавливает УС, или делает взаимный бросок. Проверка инициативы в бою, например, это на самом деле проверка Ловкости. Персонаж, выбросивший большее значение, начинает первым. </p>
+    <table>
+     <tr align="left">
+      <td align="left" valign="top"><strong>Задача</strong> </td>
+      <td align="left" valign="top"><strong>Ключевая Характеристика </strong></td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Выломать заевшую или запертую дверь </td>
+      <td align="left" valign="top">Сила </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Продеть нитку в иголку </td>
+      <td align="left" valign="top">Ловкость </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Задержать дыхание </td>
+      <td align="left" valign="top">Телосложение </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Найти выход из лабиринта </td>
+      <td align="left" valign="top">Интеллект </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Не забыть запереть дверь </td>
+      <td align="left" valign="top">Мудрость </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Выделиться из толпы </td>
+      <td align="left" valign="top">Харизма </td>
+     </tr>
+    </table>
+   </section>
+  </section>
+  <section>
+   <title>
+    <p>Таблица</p>
+   </title>
+   <table>
+    <tr align="left">
+     <td align="left" valign="top"><strong>Название</strong> </td>
+     <td align="left" valign="top"><strong>Параметр</strong> </td>
+     <td align="left" valign="top"><strong>Нетренированный</strong> </td>
+     <td align="left" valign="top"><strong>Штраф от доспеха</strong> </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top"> </td>
+     <td align="left" valign="top"> </td>
+     <td align="left" valign="top"> </td>
+     <td align="left" valign="top"> </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top">Лазание </td>
+     <td align="left" valign="top">Сила </td>
+     <td align="left" valign="top">Да </td>
+     <td align="left" valign="top">Да </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top">Плавание </td>
+     <td align="left" valign="top">Сила </td>
+     <td align="left" valign="top">Да </td>
+     <td align="left" valign="top">Да, х2 </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top">Прыжки </td>
+     <td align="left" valign="top">Сила </td>
+     <td align="left" valign="top">Да </td>
+     <td align="left" valign="top">Да </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top"> </td>
+     <td align="left" valign="top"> </td>
+     <td align="left" valign="top"> </td>
+     <td align="left" valign="top"> </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top"><strong><a l:href="#tumble">Акробатика</a></strong> </td>
+     <td align="left" valign="top">Ловкость </td>
+     <td align="left" valign="top">Нет </td>
+     <td align="left" valign="top">Да </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top"><strong><a l:href="#balance">Балансирование</a></strong> </td>
+     <td align="left" valign="top">Ловкость </td>
+     <td align="left" valign="top">Да </td>
+     <td align="left" valign="top">Да </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top"><strong><a l:href="#move_silently">Бесшумное передвижение</a></strong> </td>
+     <td align="left" valign="top">Ловкость </td>
+     <td align="left" valign="top">Да </td>
+     <td align="left" valign="top">Да </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top"><strong><a l:href="#ride">Верховая езда</a></strong> </td>
+     <td align="left" valign="top">Ловкость </td>
+     <td align="left" valign="top">Да </td>
+     <td align="left" valign="top">Нет </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top"><strong><a l:href="#open_lock">Взлом замков</a></strong> </td>
+     <td align="left" valign="top">Ловкость </td>
+     <td align="left" valign="top">Нет </td>
+     <td align="left" valign="top">Нет </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top">Использование верёвки </td>
+     <td align="left" valign="top">Ловкость </td>
+     <td align="left" valign="top">Да </td>
+     <td align="left" valign="top">Нет </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top">Ловкость рук </td>
+     <td align="left" valign="top">Ловкость </td>
+     <td align="left" valign="top">Нет </td>
+     <td align="left" valign="top">Да </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top">Мастерство побега </td>
+     <td align="left" valign="top">Ловкость </td>
+     <td align="left" valign="top">Да </td>
+     <td align="left" valign="top">Да </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top">Полёт </td>
+     <td align="left" valign="top">Ловкость </td>
+     <td align="left" valign="top">Нет </td>
+     <td align="left" valign="top">Да </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top">Скрытность </td>
+     <td align="left" valign="top">Ловкость </td>
+     <td align="left" valign="top">Да </td>
+     <td align="left" valign="top">Да </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top"> </td>
+     <td align="left" valign="top"> </td>
+     <td align="left" valign="top"> </td>
+     <td align="left" valign="top"> </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top">Концентрация </td>
+     <td align="left" valign="top">Телосложение </td>
+     <td align="left" valign="top">Да </td>
+     <td align="left" valign="top">Нет </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top"> </td>
+     <td align="left" valign="top"> </td>
+     <td align="left" valign="top"> </td>
+     <td align="left" valign="top"> </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top">Азартные игры </td>
+     <td align="left" valign="top">Интеллект </td>
+     <td align="left" valign="top">Да </td>
+     <td align="left" valign="top">Нет </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top"><strong><a l:href="#language_skills">Владение языками</a></strong> </td>
+     <td align="left" valign="top">Интеллект </td>
+     <td align="left" valign="top">Нет </td>
+     <td align="left" valign="top">Нет </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top">Знание </td>
+     <td align="left" valign="top">Интеллект </td>
+     <td align="left" valign="top">Нет </td>
+     <td align="left" valign="top">Нет </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top">Искусство магии </td>
+     <td align="left" valign="top">Интеллект </td>
+     <td align="left" valign="top">Нет </td>
+     <td align="left" valign="top">Нет </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top">Оценка </td>
+     <td align="left" valign="top">Интеллект </td>
+     <td align="left" valign="top">Да </td>
+     <td align="left" valign="top">Нет </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top">Подделка </td>
+     <td align="left" valign="top">Интеллект </td>
+     <td align="left" valign="top">Да </td>
+     <td align="left" valign="top">Нет </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top">Поиск </td>
+     <td align="left" valign="top">Интеллект </td>
+     <td align="left" valign="top">Да </td>
+     <td align="left" valign="top">Нет </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top">Поломка устройства </td>
+     <td align="left" valign="top">Интеллект </td>
+     <td align="left" valign="top">Нет </td>
+     <td align="left" valign="top">Нет </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top">Расшифровка </td>
+     <td align="left" valign="top">Интеллект </td>
+     <td align="left" valign="top">Нет </td>
+     <td align="left" valign="top">Нет </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top">Ремесло </td>
+     <td align="left" valign="top">Интеллект </td>
+     <td align="left" valign="top">Да </td>
+     <td align="left" valign="top">Нет </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top">Тонкий намёк </td>
+     <td align="left" valign="top">Интеллект </td>
+     <td align="left" valign="top">Нет </td>
+     <td align="left" valign="top">Нет </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top">Чтение по губам (только Плут) </td>
+     <td align="left" valign="top">Интеллект </td>
+     <td align="left" valign="top">Нет </td>
+     <td align="left" valign="top">Нет </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top"> </td>
+     <td align="left" valign="top"> </td>
+     <td align="left" valign="top"> </td>
+     <td align="left" valign="top"> </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top">Внимательность </td>
+     <td align="left" valign="top">Мудрость </td>
+     <td align="left" valign="top">Да </td>
+     <td align="left" valign="top">Нет </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top"><strong><a l:href="#survival">Выживание</a></strong> </td>
+     <td align="left" valign="top">Мудрость </td>
+     <td align="left" valign="top">Да </td>
+     <td align="left" valign="top">Нет </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top">Лечение </td>
+     <td align="left" valign="top">Мудрость </td>
+     <td align="left" valign="top">Да </td>
+     <td align="left" valign="top">Нет </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top">Профессия </td>
+     <td align="left" valign="top">Мудрость </td>
+     <td align="left" valign="top">Нет </td>
+     <td align="left" valign="top">Нет </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top">Тонкий слух </td>
+     <td align="left" valign="top">Мудрость </td>
+     <td align="left" valign="top">Да </td>
+     <td align="left" valign="top">Нет </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top">Чувство правды </td>
+     <td align="left" valign="top">Мудрость </td>
+     <td align="left" valign="top">Да </td>
+     <td align="left" valign="top">Нет </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top"> </td>
+     <td align="left" valign="top"> </td>
+     <td align="left" valign="top"> </td>
+     <td align="left" valign="top"> </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top"><strong><a l:href="#bluff">Блеф</a></strong> </td>
+     <td align="left" valign="top">Харизма </td>
+     <td align="left" valign="top">Да </td>
+     <td align="left" valign="top">Нет </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top"><strong><a l:href="#disguise">Гриммировка</a></strong> </td>
+     <td align="left" valign="top">Харизма </td>
+     <td align="left" valign="top">Да </td>
+     <td align="left" valign="top">Нет </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top"><strong><a l:href="#diplomacy">Дипломатия</a></strong> </td>
+     <td align="left" valign="top">Харизма </td>
+     <td align="left" valign="top">Да </td>
+     <td align="left" valign="top">Нет </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top">Дрессировка </td>
+     <td align="left" valign="top">Харизма </td>
+     <td align="left" valign="top">Нет </td>
+     <td align="left" valign="top">Нет </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top">Запугивание </td>
+     <td align="left" valign="top">Харизма </td>
+     <td align="left" valign="top">Да </td>
+     <td align="left" valign="top">Нет </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top">Использование магических устройств </td>
+     <td align="left" valign="top">Харизма </td>
+     <td align="left" valign="top">Нет </td>
+     <td align="left" valign="top">Нет </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top">Представление </td>
+     <td align="left" valign="top">Харизма </td>
+     <td align="left" valign="top">Да </td>
+     <td align="left" valign="top">Нет </td>
+    </tr>
+    <tr align="left">
+     <td align="left" valign="top">Сбор информации </td>
+     <td align="left" valign="top">Харизма </td>
+     <td align="left" valign="top">Да </td>
+     <td align="left" valign="top">Нет </td>
+    </tr>
+   </table>
+  </section>
+  <section>
+   <title>
+    <p>Описание</p>
+   </title>
+   <section id="tumble">
+    <title>
+     <p>Акробатика (Tumble)</p>
+    </title>
+    <p><strong>Только тренированный</strong></p>
+    <p><strong>Параметр:</strong> Ловкость</p>
+    <p><strong>Штрафы за ношение доспеха:</strong> Да</p>
+    <p>Вы можете ходить колесом, кувыркаться, делать сальто и так далее. </p>
+    <p><strong>Внимание: </strong>Вы не можете применять это умение, если ваша скорость уменьшена доспехом, избыточным снаряжением или добычей</p>
+    <empty-line/>
+    <subtitle>Проверка</subtitle>
+    <p>1) Вы можете мягко приземляться, когда падаете или кувыркаетесь перед врагами.</p>
+    <p>- При падении учитывайте будто падали на 10 футов меньше (УС 15)</p>
+    <p>2) Вы получаете особое умение "Пируэт" (использует проверки Акробатики), которое позволяет избегать атак при возможности от оппонентов.</p>
+    <p>- Вы перемещаетесь <emphasis>с половиной скорости персонажа</emphasis> (как часть нормального передвижения), не провоцируя атак при возможности (УС 15). Провал означает, что пируэт вам удался, но вы спровоцировали атаку при возможности как обычно. Кидайте проверку против каждого врага, мимо которого пытаетесь прошмыгнуть. Каждый следующий враг после первого добавляет +2 к УС</p>
+    <p>- Вы можете перемещаться через области, занятые врагами (над ними, под ними или вокруг них) <emphasis>с половиной скорости персонажа</emphasis> (как часть нормального передвижения), не провоцируя атак при возможности  (УС 25). Провал означает, что вы остановились перед областью, занятой врагом и спровоцировали атаку при возможности. Проверка также кидается против каждого врага, добавляя +2 к УС для каждого врага после первого.</p>
+    <p>- Вы <strong>можете</strong> перемещаться с полной скоростью вместо половинной, в этом случае УС увеличивается на 10.</p>
+    <p>- Загражденные или как-то иначе ненадежные поверхности (естественные полы пещер, подлесок) являются сложными для преодоления. В этих случаях УС может увеличиться от 2 до 5 (на усмотрение Мастера).</p>
+    <p>- Применение данного умения невозможно в трясине (разве что мелководной).</p>
+    <p>3) Вы можете также показывать акробатические номера, чтобы развлечь аудиторию (своеобразный аналог навыка Представление).  В этом случае УС определяет Мастер.</p>
+    <empty-line/>
+    <subtitle>Действие</subtitle>
+    <p>Неприменимо; навык используется, как часть действия. Это же относится и к умению "Пируэт".</p>
+    <empty-line/>
+    <subtitle>Повторное применение</subtitle>
+    <p>Не имеет смысла:</p>
+    <p>- Вы можете попробовать уменьшить урон единожды за падение. </p>
+    <p>- Вы можете попытаться сделать "Пируэт" как часть движения один раз за раунд.</p>
+    <p>- Аудитория, сочтя акробата неинтересным, более его не воспринимает. </p>
+    <p>При определенных обстоятельствах Мастер может позволить выполнить проверку навыка повторно. Когда эти обстоятельства наступят - решать Мастеру.</p>
+    <empty-line/>
+    <subtitle>Особенности</subtitle>
+    <p>- Каждые 5 рангов в данном навыке дают персонажу бонус +1 КД уворота. Эти бонусы не учитываются, если персонаж обездвижен, перегружен либо его застали врасплох.</p>
+    <empty-line/>
+    <subtitle>Синергия</subtitle>
+    <p>Каждые 5 рангов в данном навыке дают бонусы к следующим навыкам:</p>
+    <p>- <strong><a l:href="#balance">Балансирование</a></strong>: +2</p>
+    <p>- Прыжки: +2</p>
+   </section>
+   <section id="balance">
+    <title>
+     <p>Балансирование (Balance)</p>
+    </title>
+    <p><strong>Параметр:</strong> Ловкость</p>
+    <p><strong>Штрафы за ношение доспеха:</strong> Да</p>
+    <p>Вы можете сохранять равновесие во время ходьбы по канату, узкой балке, выступу или неровной поверхности.</p>
+    <empty-line/>
+    <subtitle>Проверка</subtitle>
+    <p>1) Вы можете ходить по опасной поверхности (это действие, эквивалентное передвижению). </p>
+    <p>- Успешная проверка позволяет двигаться по этой поверхности с половиной вашей скорости в течение 1 раунда. </p>
+    <p>- Неудача означает, что вы не двигаетесь 1 раунд. </p>
+    <p>- При нехватке 5 и более очков до необходимого числа вы падаете. </p>
+    <p>- Загражденные или как-то иначе ненадежные поверхности (естественные полы пещер, подлесок) являются сложными для преодоления. В этих случаях УС может увеличиться от 2 до 5 (на усмотрение Мастера).</p>
+    <p>- Вы можете передвигаться по опасной поверхности с обычной для вас скоростью. В этом случае УС увеличивается на 5.</p>
+    <p>- Вы можете передвигаться по опасной поверхности с удвоенной скоростью. В этом случае, вам необходимо сделать 2 проверки Балансирования вместо одной, и у каждой УС будет увеличен на 5.</p>
+    <p>УС зависит от состояния поверхности: чем меньше ширина, тем выше УС. </p>
+    <p>2) Вы можете бежать по неровной поверхности. В этом случае, УС равна 10</p>
+    <p>- Загражденные или как-то иначе ненадежные поверхности (естественные полы пещер, подлесок) являются сложными для преодоления. В этих случаях УС может увеличиться от 2 до 5 (на усмотрение Мастера).</p>
+    <p>- Неудача означает, что вы не смогли пробежать, но прошли пешком этот участок.</p>
+    <p>- При нехватке 4 и более очков до необходимого числа вы падаете. </p>
+    <empty-line/>
+    <p><strong>Внимание:</strong> Вас могут атаковать во время проверки Балансирования. В этом случае вы вновь делаете проверку с увеличенным УС (определяет Мастер):</p>
+    <p>- При успехе вам удается устоять и вы можете двигаться дальше</p>
+    <p>- При провале вы останавливаетесь, пытаясь удержаться; атакующие получают +2 условный бонус к атаке против вас, а вы теряете бонусы КД уворота и КД Ловкости (не теряете эти бонусы, если у вас 5 и более рангов в Балансировании).</p>
+    <p>- При нехватке 5 и более очков до необходимого числа вы падаете. </p>
+    <empty-line/>
+    <subtitle>Действие</subtitle>
+    <p>Неприменимо; навык используется, как часть действия.</p>
+    <empty-line/>
+    <subtitle>Особенности</subtitle>
+    <p>- Каждые 5 рангов в данном навыке дают персонажу бонус +2 к взаимным проверкам подсечки.</p>
+   </section>
+   <section id="move_silently">
+    <title>
+     <p>Бесшумное передвижение (Move Silently)</p>
+    </title>
+    <p><strong>Параметр:</strong> Ловкость</p>
+    <p><strong>Штрафы за ношение доспеха:</strong> Да</p>
+    <p>Вы можете применять этот навык, чтобы красться позади врага или незаметно скрыться в неизвестном направлении.</p>
+    <empty-line/>
+    <subtitle>Проверка</subtitle>
+    <p>Вы делаете проверку данного умения против взаимной проверки Тонкого слуха. </p>
+    <p>- Двигаясь <emphasis>с половиной скорости персонажа</emphasis> (как часть нормального передвижения), УС не увеличивается.</p>
+    <p>- Двигаясь с полной скоростью, УС увеличивается на 5.</p>
+    <p>- При беге вы получаете штраф -20 к проверке Бесшумного передвижения (считается практически невозможным).</p>
+    <p>- Шумные поверхности (трясины и подлески) препятствуют тихому передвижению. При попытке бесшумно пересечь такую поверхность вы получаете штраф (на усмотрение Мастера).</p>
+    <empty-line/>
+    <subtitle>Действие</subtitle>
+    <p>Неприменимо; навык используется, как часть действия.</p>
+   </section>
+   <section id="bluff">
+    <title>
+     <p>Блеф (Bluff)</p>
+    </title>
+    <p><strong>Параметр:</strong> Харизма</p>
+    <p><strong>Штрафы за ношение доспеха:</strong> Нет</p>
+    <p>Вы можете сделать так, что невероятные вещи или чистая ложь станут казаться правдой. Блеф заключает в себе актерское мастерство, боевые умения, разговор, введение в заблуждение и обманный язык телодвижений. Используйте блеф, чтобы посеять временное замешательство, заставить кого-то повернуться туда, куда вы указываете или просто выглядеть невинно.</p>
+    <empty-line/>
+    <subtitle>Проверка</subtitle>
+    <p>1) Вы делаете проверку данного умения против взаимной проверки Чувства правды. Блеф требует взаимодействия между персонажем и жертвой. Существа, которые не могут общаться с персонажем, не могут быть обмануты. </p>
+    <p>- При успехе, объект реагирует так, как вы того и хотели, по крайней мере, на короткое время (обычно 1 раунд или меньше), или верит чему-то, что вы желали ему внушить. Но Блеф – это не всегда то, что вам необходимо. Например, вы можете применить Блеф, чтобы ослабить бдительность человека, говоря, что у него развязались шнурки. В лучшем случае такой блеф заставит этого человека лишь бегло взглянуть на свои ботинки. Это не позволит ему игнорировать тебя и заняться своей обувью. </p>
+    <p>- При провале, обман не был разгадан, но цель относится к вам с подозрением (возможно даже не желает вести с вами дело).</p>
+    <p>- При нехватке 10 и более очков до необходимого числа обман будет раскрыт. Если блеф изначально был слишком неправдоподобным, или он противоречит каким либо устоям цели, тогда обман будет раскрыт при нехватке 5 и более очков.</p>
+    <p>2) Благодаря Блефу, вы владеете особым умением "Финт", которое позволяет перехитрить оппонента и снизить его защиту. Вы делаете ложный выпад оружием ближнего боя или руками, тем самым открывая уязвимые места оппонента (происходит проверка данного умения против взаимной проверки Чувства правды). </p>
+    <p>- При успехе, следующую атаку вы наносите, игнорируя бонус КД Ловкости. Классы, обладающие умением "Коварная атака" (или схожим по механике с ним), могут применить это умение в данной ситуации.</p>
+    <p>- Занимает стандартное действие (умение "Улучшенный финт" позволяет применять данное умение в качестве действия передвижения), не провоцирует атаку при возможности.</p>
+    <p>- Применять данное умение против негуманоидов труднее, поскольку сложнее прочитать язык телодвижений чуждого существа; против них вы получаете штраф -4. Против существ с животным интеллектом (1 или 2) это еще труднее; вы получаете штраф -8. Против существ, не обладающих интеллектом, применение умения невозможно. </p>
+    <p>3) Вы можете использовать Блеф для передачи тайного послания другому персонажу так, чтобы другие вас не поняли. </p>
+    <p>- для простых сообщений: УС 15, для сложных, например передача некой новой информации: УС 20. </p>
+    <p>- При нехватке 4 и менее очков до требуемого числа вы не можете передать послание. При нехватке 5 и более очков – вы передаете ложную информацию, т.е. оппонент понимает вас неправильно. </p>
+    <p>- Любой слушающий передачу может кинуть проверку Чувства правды чтобы перехватить послание.</p>
+    <empty-line/>
+    <subtitle>Действие</subtitle>
+    <p>Различное. Проверка Блефа, как часть основного взаимодействия, всегда осуществляется в течение как минимум 1 раунда (но может занимать и большое время, если вы изъясняетесь пространно). </p>
+    <p>- Использование умения "Финт" или попытка обмануть соперника в бою – стандартное действие. </p>
+    <p>- Блеф при передаче сообщений – обыкновенное общение. Однако, Мастер может ограничить количество информации, которое вы можете передать за раунд. </p>
+    <empty-line/>
+    <subtitle>Повторное применение</subtitle>
+    <p>В основном, проваленная проверка Блефа делает цель слишком подозрительной по отношению к обманщику. Он вряд ли преуспеет в попытке использования Блефа еще раз при тех же обстоятельствах. </p>
+    <p>- Для "Финта" можно делать повторные проверки сколько угодно раз. </p>
+    <p>- Повторы возможны при передаче посланий, но только раз за раунд. Каждая попытка сохраняет шанс быть непонятым.</p>
+    <empty-line/>
+    <subtitle>Особенности</subtitle>
+    <p>- Следопыты получают бонус к проверке Блефа, когда используют этот навык против заклятых врагов (смотри умение Заклятый враг).</p>
+    <empty-line/>
+    <subtitle>Синергия</subtitle>
+    <p>Каждые 5 рангов в данном навыке дают бонусы к следующим навыкам:</p>
+    <p>- Дипломатия / Запугивание: +2</p>
+    <p><emphasis>Особенность: </emphasis>Вышеуказанный бонус работает <strong>только на навыках с рангами</strong>. Приоритет отдается навыку с наибольшим количеством рангов. Если рангов поровну, вместо этого бонуса вы получаете +1 бонус и к Дипломатии, и к Запугиванию. Если рангов нету ни у одного из вышеперечисленного навыка, бонус не работает.</p>
+    <p>- Ловкость рук: +1</p>
+    <p>- <strong><a l:href="#disguise">Гриммировка</a></strong> (только если пытаетесь изобразить гуманоида): +2</p>
+   </section>
+   <section id="ride">
+    <title>
+     <p>Верховая езда (Ride)</p>
+    </title>
+    <p><strong>Параметр:</strong> Ловкость</p>
+    <p><strong>Штрафы за ношение доспеха:</strong> Нет</p>
+    <p>Вы можете ездить верхом, будь это лошадь, ездовая собака, гриффон, дракон или любое другое существо, приспособленное для верховой езды. Если вы пытаетесь ехать верхом на существе, не приспособленном для езды (таково большинство двуногих созданий), то вы получаете штраф –5 к проверкам этого умения.</p>
+    <empty-line/>
+    <subtitle>Проверка</subtitle>
+    <p>Обычные действия верховой езды <strong>не требуют проверок</strong>. Вы можете седлать, садиться, ехать на верховом животном и спешиваться безо всяких проблем. Посадка в седло и спешивание – действия, эквивалентные передвижению. Следующие задачи требуют проверок:</p>
+    <p><emphasis>Править Коленями (УС 5):</emphasis> Вы немедленно реагируете на опасность и правите вашим скакуном коленями, чтобы использовать в бою обе руки. Делайте проверку в начале вашего хода. Если вы терпите неудачу, то можете использовать в этом раунде только одну руку, потому что должны использовать другую для управления вашим верховым животным.</p>
+    <p><emphasis>Оставаться в Седле (УС 5): </emphasis>Вы немедленно реагируете на опасность и пробуете избежать падения, когда ваше животное внезапно встает на дыбы или несет вас, или когда вы получаете урон. Такой прием не занимает действие.</p>
+    <p><emphasis>Сражаться на Боевом Коне (УС 10):</emphasis> Если вы направляете вашего скакуна во время атаки в битве, то вы можете при этом и сами атаковать ваших врагов. Свободное действие.         </p>
+    <p><emphasis>Укрываться (УС 15):</emphasis> Вы немедленно реагируете на опасность и падаете вниз и висите рядом с вашим скакуном, используя его как укрытие. Вы не можете в это время нападать или творить заклинания. Если вы терпите неудачу, то не получаете преимущества укрытия.</p>
+    <p><emphasis>Мягкое Падение (УС 15):</emphasis> Вы немедленно реагируете на опасность и пробуете не получить никакого урона, падая с верхового животного, например, когда оно падает или его убивают. Если вы терпите неудачу, то получаете 1d6 единиц урона от падения.</p>
+    <p><emphasis>Перепрыгнуть препятствие (УС 15):</emphasis> Вы можете заставить ваше животное перепрыгнуть препятствия, что будет частью его передвижения. Используйте свой модификатор умения Верховой Езды или модификатор умения Прыжки верхового животного (более низкий), чтобы увидеть, какую высоту может взять животное, или какое расстояние покрыть прыжком. Если ваша проверка терпит неудачу, то вы падаете из седла во время прыжка и получаете 1d6 единиц урона. Не является действием, но частью передвижения.</p>
+    <p><emphasis>Пришпорить животное (УС 15): </emphasis>Вы можете пришпорить ваше животное для увеличения скорости передвижения. Успешная проверка увеличивает скорость на 10 футов на протяжении 1 раунда, но животное получает 1 единицу урона. Вы можете использовать этот прием каждый раунд, но за каждый последующую попытку увеличения скорости животное получает двойной урон от прошлой попытки (2, 4, 8, 16…).</p>
+    <p><emphasis>Управлять животным в бою (УС 20):</emphasis> В качестве действия, эквивалентного передвижению, вы можете попытаться управлять в бою легкой лошадью, пони, тяжелой лошадью или любым животным, нетренированным для боя. Если вы терпите неудачу, вы не можете делать ничего другого в этот раунд. Вы не должны делать бросок для боевых коней и боевых пони.</p>
+    <p><emphasis>Быстрое седлание (УС 20):</emphasis> Вы можете оседлать или спешиться в качестве свободного действия (для этого животное должно быть как минимум на один размер больше вашего, т.е. человеку не нужно кидать проверку, если он хочет быстро оседлать пони или осла) и оставить за собой свободу действия в этом раунде. Если вы проваливаете эту проверку, то это считается действием, эквивалентным передвижению. Вы не можете делать попытку быстрого седлания или спешивания, если животное более чем на один размер больше вас (например, человек и слон).</p>
+    <empty-line/>
+    <subtitle>Особенности</subtitle>
+    <p>- Если вы ездите без седла, то получаете штраф -5 к данному навыку. </p>
+    <p>- Если же на скакуне боевое седло, вы получаете условный бонус +2.</p>
+   </section>
+   <section id="open_lock">
+    <title>
+     <p>Взлом замков (Open Lock)</p>
+    </title>
+    <p><strong>Только тренированный</strong></p>
+    <p><strong>Параметр:</strong> Ловкость</p>
+    <p><strong>Штрафы за ношение доспеха:</strong> Нет</p>
+    <p>Вы можете взламывать висячие замки, подбирать шифр к кодовым замкам и открывать замки с секретом. Попытка требует, по крайней мере, простого набора инструментов соответствующего вида (шпилька, лом, отмычка, проволока и т.д.). </p>
+    <p>- Попытка проверки Взлома без набора воровских инструментов несет ситуационный штраф -2. </p>
+    <p>- Использование воровских инструментов мастерской работы позволяет вам делать проверки с условным бонусом +2. Некоторые инструменты могут давать больший бонус (но они крайне редки).</p>
+    <empty-line/>
+    <subtitle>Проверка</subtitle>
+    <p>При проверке данного навыка, УС варьируется от 20 до 40, в зависимости от качества замка:</p>
+    <p>- Очень простой замок: 20</p>
+    <p>- Замок средней сложности: 25</p>
+    <p>- Хороший замок: 30</p>
+    <p>- Превосходный замок: 40</p>
+    <p>Некоторые магические замки или шифры могут иметь более высокий или низкий УС.</p>
+    <p>Если результат проверки Взлома замков будет ниже на 10 и более, замок может заклинить (определяет Мастер).</p>
+    <empty-line/>
+    <subtitle>Действие</subtitle>
+    <p>Одна попытка взлома занимает полный раунд. Если замок необычной формы или имеет очень сложную конструкцию, времени на взлом может потребоваться больше.</p>
+    <empty-line/>
+    <subtitle>Повторное применение</subtitle>
+    <p>Неограниченно, вплоть до успеха, или пока замок не заклинит.</p>
+    <empty-line/>
+    <subtitle>Особенности</subtitle>
+    <p>- Персонажи без данного навыка не могут сами взломать замок, но могут попытаться его просто сломать или выломать.</p>
+   </section>
+   <section id="language_skills">
+    <title>
+     <p>Владение языками (Language Skills)</p>
+    </title>
+    <p><strong>Параметр:</strong> Интеллект</p>
+    <p><strong>Штрафы за ношение доспеха:</strong> Нет</p>
+    <p>Данный навык работает не так, как остальные:</p>
+    <p>- Вы начинаете на 1-м уровне, зная один или два языка (согласно вашей расе) плюс дополнительное число языков, равных вашему бонусу Интеллекта.</p>
+    <p>- При получении ранга в данном навыке, вы выбираете новый язык, на котором вы теперь сможете говорить. Учтите, что у вас должны быть логические предпосылки для получения рангов в данном навыке (персонаж долгое время учил язык или читал книги на необходимом языке).</p>
+    <p>- Вы не делаете проверок Владения Языком. Вы либо владеете языком, либо нет.</p>
+    <p>- Грамотный персонаж (все, кроме варвара) может читать и писать на любом языке, на котором он говорит. Каждый язык имеет алфавит (хотя иногда несколько разговорных языков пользуются одним алфавитом).</p>
+    <table>
+     <tr align="left">
+      <td align="left" valign="top"><strong>Язык</strong> </td>
+      <td align="left" valign="top"><strong>Владеющий им</strong> </td>
+      <td align="left" valign="top"><strong>Алфавит</strong> </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Адский </td>
+      <td align="left" valign="top">Демоны, хаотически злые пришельцы </td>
+      <td align="left" valign="top">Инфернальный </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Великаний </td>
+      <td align="left" valign="top">Эттины, огры, великаны </td>
+      <td align="left" valign="top">Дварфийский </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Водный </td>
+      <td align="left" valign="top">Подводные существа </td>
+      <td align="left" valign="top">Эльфийский </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Воздушный </td>
+      <td align="left" valign="top">Воздушные существа </td>
+      <td align="left" valign="top">Драконий </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Всеобщий </td>
+      <td align="left" valign="top">Большинство гуманоидов </td>
+      <td align="left" valign="top">Всеобщий </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Гнолльский </td>
+      <td align="left" valign="top">Гнолли </td>
+      <td align="left" valign="top">Всеобщий </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Гномий </td>
+      <td align="left" valign="top">Гномы </td>
+      <td align="left" valign="top">Дварфийский </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Гоблинский </td>
+      <td align="left" valign="top">Гоблины, хобгоблины, буки </td>
+      <td align="left" valign="top">Дварфийский </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Дварфийский </td>
+      <td align="left" valign="top">Дварфы </td>
+      <td align="left" valign="top">Дварфийский </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Драконий </td>
+      <td align="left" valign="top">Кобольды, троглодиты, люди-ящеры, драконы </td>
+      <td align="left" valign="top">Драконий </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Друидический </td>
+      <td align="left" valign="top">Друиды (только) </td>
+      <td align="left" valign="top">Друидический </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Земной </td>
+      <td align="left" valign="top">Ксорн и другие подземные существа </td>
+      <td align="left" valign="top">Дварфийский </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Инфернальный </td>
+      <td align="left" valign="top">Дьяволы, ортодоксально злые пришельцы </td>
+      <td align="left" valign="top">Инфернальный </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Лесной </td>
+      <td align="left" valign="top">Дриады, брауни, лепреконы </td>
+      <td align="left" valign="top">Эльфийский </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Небесный </td>
+      <td align="left" valign="top">Добрые пришельцы </td>
+      <td align="left" valign="top">Небесный </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Нижний </td>
+      <td align="left" valign="top">Дроу, мозгоеды </td>
+      <td align="left" valign="top">Эльфийский </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Огненный </td>
+      <td align="left" valign="top">Огненные существа </td>
+      <td align="left" valign="top">Драконий </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Орочий </td>
+      <td align="left" valign="top">Орки </td>
+      <td align="left" valign="top">Дварфийский </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Полуросличий </td>
+      <td align="left" valign="top">Полурослики </td>
+      <td align="left" valign="top">Всеобщий </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Эльфийский </td>
+      <td align="left" valign="top">Эльфы </td>
+      <td align="left" valign="top">Эльфийский </td>
+     </tr>
+    </table>
+   </section>
+   <section id="survival">
+    <title>
+     <p>Выживание (<strong>Survival</strong>)</p>
+    </title>
+    <p><strong>Параметр:</strong> Мудрость</p>
+    <p><strong>Штрафы за ношение доспеха:</strong> Нет</p>
+    <p>Применение этого навыка позволяет идти по следу, охотиться на зверя, благополучно вести партию через заснеженные пустоши, находить признаки обитания поблизости опасных хищников, предсказывать погоду, избегать болот и других естественных преград.</p>
+    <empty-line/>
+    <subtitle>Проверка</subtitle>
+    <p>1) Благодаря данному навыку, вы способны гораздо более эффективно проходить дикую местность, охотиться и прочее. В таблице ниже приведены примеры использования данного навыка:</p>
+    <table>
+     <tr align="left">
+      <td align="left" valign="top"><strong>УС</strong> </td>
+      <td align="left" valign="top"><strong>Задача</strong> </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">10 </td>
+      <td align="left" valign="top">Продвижение по дикой местности. Продвигаться с половиной вашей скорости во время охоты и поиска пропитания (не требуется наличие еды и питья). Вы можете найти еду и воду для одного существа за каждые 2 очка свыше десяти (10 для одного, 12 для двух, 14 для трех существ…) </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">15 </td>
+      <td align="left" valign="top">Получить бонус +2 ко всем спасброскам Стойкости против суровых погодных условий, при условии передвижения с половиной вашей скорости / Получить бонус +4 если вы остаетесь на месте. Вы можете гарантировать этот бонус одному существу за каждое 1 очко свыше 15-ти (15 одному, 16 двум, 17 трем существам…) </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">15 </td>
+      <td align="left" valign="top">Не заблудиться и не попасть в болото или подобные естественные опасности. </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">15 </td>
+      <td align="left" valign="top">Предсказать погоду на 24 часа вперед. За каждые 5 очков свыше 15-ти вы предсказываете погоду на день больше (20 на два дня вперед, 25 на три дня вперед) </td>
+     </tr>
+    </table>
+    <p>2) Данный навык необходим для умения "Чтение следов" (смотри описание умения).</p>
+    <empty-line/>
+    <subtitle>Действие</subtitle>
+    <p>Различное. Одиночная проверка Выживания может разъяснить обстановку на часы или на весь день вперед. Проверки Выживания делаются чтобы найти следы и являются действием на 1 раунд (или дольше, на усмотрение Мастера).</p>
+    <empty-line/>
+    <subtitle>Повторное применение</subtitle>
+    <p>- Для путешествия через дикую местность или для получения бонуса к Стойкости, проверка делается каждые 24 часа. Результат этой проверки имеет силу вплоть до следующей проверки. </p>
+    <p>- Чтобы не заблудиться или не попасть в болото (и прочую естественную неприятность), проверка делается каждый раз, когда того требует ситуация; повтор такой проверки для специфических ситуаций, или особых естественных преград, не предусмотрен. </p>
+    <p>- Для обнаружения следов, вы можете повторить проверку спустя 1 час (на открытой местности) или 10 минут (в помещении, пещере) поисков.</p>
+    <empty-line/>
+    <subtitle>Особенности</subtitle>
+    <p>- Имея как минимум 5 рангов в данном навыке, вы можете безошибочно определить, с какой стороны находится север. В противном случае, необходимо пройти проверку Выживания УС 10. Погодные условия могут увеличить УС этой проверки.</p>
+    <p>- Следопыты получают бонус к проверке Выживания, когда идут по следу заклятых врагов (смотри умение Заклятый враг, Чтение следов).</p>
+    <subtitle>Синергия</subtitle>
+    <p>Каждые 5 рангов в данном навыке дают бонусы к следующим навыкам:</p>
+    <p>- Знание (Природа): +2 (если есть ранги в этом навыке)</p>
+    <p>- Знание (География): +1 (если есть ранги в этом навыке)</p>
+    <p>- Знание (Измерения): +1 (если есть ранги в этом навыке)</p>
+    <p>- Знание (Подземелье): +1 (если есть ранги в этом навыке)</p>
+    <p>- Гриммировка (если пытаетесь спрятаться, находясь вне цивилизации): +2</p>
+   </section>
+   <section id="disguise">
+    <title>
+     <p>Гриммировка (Disguise)</p>
+    </title>
+    <p><strong>Параметр:</strong> Харизма</p>
+    <p><strong>Штрафы за ношение доспеха:</strong> Нет</p>
+    <p>Применение этого навыка дает возможность изменить свою или чью-либо еще внешность. Для этого потребуется, по меньшей мере, некоторые бутафорские предметы, грим и некоторое время. В Гримировку включается оптическое изменение роста или веса, но не более чем на одну десятую от настоящего. </p>
+    <p>Вы можете также выдавать себя за какого-либо незнакомого человека, либо за определенного человека, либо за человека какого-либо типа, например, вы можете с минимумом грима или вообще без него выглядеть, как чужеземец, даже если вы местный. </p>
+    <p>- Использование набора для гримировки дает ситуационный бонус +2 к проверке Гримировки.</p>
+    <empty-line/>
+    <subtitle>Проверка</subtitle>
+    <p>1) Вы делаете проверку данного умения во время нанесения грима. В дальнейшем это значение будет использоваться против взаимной проверки Внимательности. </p>
+    <p>- Если вы не привлекаете к себе внимание и не выделяетесь, то в целом сможете пройти спокойно, - вас никто не попытается разоблачить. Но помните, что бдительные персонажи (например, стражники у ворот) скорее всего попытаются вывести вас на чистую воду, если что то заподозрят, поэтому будьте осторожны!</p>
+    <p>- Эффективность гримировки в частности зависит от того, насколько сильно вы пытаетесь изменить свою внешность. Если вы гримируетесь под определенную личность, то те, кто с ней знаком, получают бонус к проверкам Внимательности против вас (и автоматически подозрительно относятся к вам, так что всегда делаются взаимные проверки).</p>
+    <p>2) Вы можете попытаться замаскироваться на какой-нибудь местности, будь то город, лес или комната, например. Вы делаете одну проверку Гриммировки, и её результат используется на последующие взаимные проверки Внимательности.</p>
+    <empty-line/>
+    <subtitle>Действие</subtitle>
+    <p>Создание грима может занимает от 1d3x10 и более минут работы, в зависимости от сложности грима. Окончательное решение по времени остается за Мастером.</p>
+    <empty-line/>
+    <subtitle>Повторное применение</subtitle>
+    <p>Возможно: персонаж может попытаться переделать неудавшуюся гримировку, но люди, которые узнали об этом, будут более подозрительны. </p>
+    <empty-line/>
+    <subtitle>Особенности</subtitle>
+    <p>- Любая магия, изменяющая форму, дает условный бонус +10 к Гриммировке. Помните, что магия, дающая возможность видеть сквозь иллюзии или мороки, может игнорировать вышеуказанный бонус.</p>
+    <empty-line/>
+    <subtitle>Синергия</subtitle>
+    <p>Каждые 5 рангов в данном навыке дают бонусы к следующим навыкам:</p>
+    <p>- Представление (любое) (при условии что вы в подходящем для ситуации гриме): +2</p>
+   </section>
+   <section id="diplomacy">
+    <title>
+     <p>Дипломатия (Diplomacy)</p>
+    </title>
+    <p><strong>Параметр:</strong> Харизма</p>
+    <p><strong>Штрафы за ношение доспеха:</strong> Нет</p>
+    <p>Применяйте этот навык, чтобы уговорить камергера позволить вам увидеть короля, чтобы договориться о мире между враждующими варварскими племенами или чтобы убедить огров-магов, захвативших вас в плен, в том, что они должны вернуть вас друзьям за выкуп вместо того, чтобы переломать вам все кости. Дипломатия включает этикет, формы вежливости, такт, утонченность и умение вести беседу. Умелый персонаж знает официальные и неофициальные правила поведения, общественные нормы, надлежащие формы обращения и тому подобное. Это умение представляет собой способность производить благоприятное впечатление, эффективно вести переговоры и влиять на других. </p>
+    <empty-line/>
+    <subtitle>Проверка</subtitle>
+    <p>Успешная проверка изменяет отношение к вам других персонажей (смотри таблицу "Основные УС"). При переговорах участники используют взаимные проверки Дипломатии, чтобы узнать, кто из них возьмет верх. Взаимные проверки также применяются в случаях, когда два адвоката или дипломата выступают в слушании перед третьей стороной. </p>
+    <empty-line/>
+    <subtitle>Основные УС </subtitle>
+    <table>
+     <tr align="left">
+      <td rowspan="2" align="left" valign="top"><strong>Исх. отношение</strong> </td>
+      <td colspan="5" align="left" valign="top"><strong>Новое отношение (УС для достижения)</strong> </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top"><strong>Вражд.</strong> </td>
+      <td align="left" valign="top"><strong>Недруж.</strong> </td>
+      <td align="left" valign="top"><strong>Безразл.</strong> </td>
+      <td align="left" valign="top"><strong>Дружел.</strong> </td>
+      <td align="left" valign="top"><strong>Желающий помочь</strong> </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Враждебный </td>
+      <td align="left" valign="top">менее 20 </td>
+      <td align="left" valign="top">20 </td>
+      <td align="left" valign="top">25 </td>
+      <td align="left" valign="top">35 </td>
+      <td align="left" valign="top">50 </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Недружелюбный </td>
+      <td align="left" valign="top">менее 5 </td>
+      <td align="left" valign="top">5 </td>
+      <td align="left" valign="top">15 </td>
+      <td align="left" valign="top">25 </td>
+      <td align="left" valign="top">40 </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Безразличный </td>
+      <td align="left" valign="top">- </td>
+      <td align="left" valign="top">менее 1 </td>
+      <td align="left" valign="top">1 </td>
+      <td align="left" valign="top">15 </td>
+      <td align="left" valign="top">30 </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Дружелюбный </td>
+      <td align="left" valign="top">- </td>
+      <td align="left" valign="top">- </td>
+      <td align="left" valign="top">менее 1 </td>
+      <td align="left" valign="top">1 </td>
+      <td align="left" valign="top">20 </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Желающий помочь </td>
+      <td align="left" valign="top">- </td>
+      <td align="left" valign="top">- </td>
+      <td align="left" valign="top">- </td>
+      <td align="left" valign="top">менее 1 </td>
+      <td align="left" valign="top">1 </td>
+     </tr>
+    </table>
+    <empty-line/>
+    <subtitle>Описание</subtitle>
+    <table>
+     <tr align="left">
+      <td align="left" valign="top"><strong>Отношение </strong></td>
+      <td align="left" valign="top"><strong>Понятие</strong> </td>
+      <td align="left" valign="top"><strong>Возможная реакция</strong> </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Враждебный </td>
+      <td align="left" valign="top">Может причинить вред </td>
+      <td align="left" valign="top">Нападение, вмешательство, ругань, бегство </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Недружелюбный </td>
+      <td align="left" valign="top">Желает вам недоброго </td>
+      <td align="left" valign="top">Сплетничать, избегать, подозрительные взгляды, оскорбления </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Безразличный </td>
+      <td align="left" valign="top">Плевал на вас </td>
+      <td align="left" valign="top">Социально ожидаемое взаимодействие </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Дружелюбный </td>
+      <td align="left" valign="top">Желает вам добра </td>
+      <td align="left" valign="top">Общение, совет, предложение ограниченной помощи или защиты </td>
+     </tr>
+     <tr align="left">
+      <td align="left" valign="top">Желающий помочь </td>
+      <td align="left" valign="top">Может оказать вам помощь </td>
+      <td align="left" valign="top">Защита, поддержка, лечение, помощь </td>
+     </tr>
+    </table>
+    <empty-line/>
+    <subtitle>Действие</subtitle>
+    <p>Изменение отношения к вам занимает как минимум 1 минуту (10 полных раундов). В некоторых ситуациях, это время может значительно возрасти. </p>
+    <p>- Ускоренная попытка занимает полный раунд, но вы получаете штраф –10.</p>
+    <empty-line/>
+    <subtitle>Повторное применение</subtitle>
+    <p>По желанию, но не рекомендуется, так как обычно повторы не дают желаемого эффекта: </p>
+    <p>- Даже если первая проверка удалась, другому персонажу вы уже можете надоесть, и повторная попытка принесет больше вреда, чем пользы. </p>
+    <p>- Если первая проверка провалена, другой персонаж, по всей вероятности, будет решительнее отстаивать свои позиции и повтор станет бесполезен. </p>
+   </section>
+   <section id="handle_animal">
+    <title>
+     <p>Дрессировка (Handle Animal)</p>
+    </title>
+    <p><strong>Только тренированный</strong></p>
+    <p><strong>Параметр:</strong> Харизма</p>
+    <p><strong>Штрафы за ношение доспеха:</strong> Нет</p>
+    <p>Применяйте это умение, чтобы заставить упряжку коней тащить карету по пересеченной местности, научить собаку сторожить или подавать «голос».</p>
+    <empty-line/>
+    <subtitle>Проверка</subtitle>
+    <p>1) <emphasis>Воспитать дикое животное (УС 15 + КХП животного)</emphasis> </p>
+    <p>- Успешная попытка означает, что животное теперь будет слушаться вас. Тем не менее, оно еще не расположено к вам, поэтому в дальнейшем стоит продолжать дрессировку. Лишь спустя время, окруженное лаской и заботой, животное примет вас и станет верным спутником.</p>
+    <p>- Вы также можете вырастить дикое существо с младенчества, одомашнить его. Дрессировщик может вырастить три создания одного типа в одно время. Успешно одомашненное животное могло быть обучено командам во время воспитывания. В этом случае УС понижается на 5.</p>
+    <p>- При провале животное будет вести себя по отношению к вам, как обычно. Если провал на 5 и ниже пунктов, отношение животного к вас может понизиться.</p>
+    <p>2) <emphasis>Научить животное командам (УС от 15 до 20):</emphasis></p>
+    <p>- За каждый пункт параметра Интеллекта у животного, оно может выучить 3 команды</p>
+    <p>- На обучение уходит неделя, включая успешную проверку УС для необходимой команды.</p>
+    <p>- Вы можете затратить дополнительное время для того, чтобы из индивидуальных команд сформировать серию из последовательных действий вашего питомца. На это уходит еще неделя тренировки, без проверок УС. Комбинировать можно только те команды, что животное уже знает. Ограничение - количество команд в серии не может быть более 3-х, и животное должно обладать Интеллектом 2+. Всего до 3-х таких комбинаций животное может выучить.</p>
+    <empty-line/>
+    <subtitle>Возможные простые команды</subtitle>
+    <p><strong>"Фас!" </strong></p>
+    <p><strong>УС 20</strong></p>
+    <p>Животное атакует видимых врагов. Вы можете указать конкретное существо для атаки. Обычно, животное будет атаковать только гуманоидов, монстров-гуманоидов, гигантов, или других животных. Обучение животного атаковать всех существ, включая нежить и аномальных существ, считается за две команды.</p>
+    <empty-line/>
+    <p><strong>"Ко мне!"</strong></p>
+    <p><strong>УС 15</strong></p>
+    <p>Животное подходит к вам, даже если оно в нормальных условиях не сделало бы этого (например, прыгнуть к вам в лодку).</p>
+    <empty-line/>
+    <p><strong>"Защищай"</strong></p>
+    <p><strong>УС 20</strong></p>
+    <p>Животное защищает вас (или готово защищать, если отсутствует угроза), даже если для этого не было никакой команды. Как вариант, вы можете приказать животному защищать кого-либо другого.</p>
+    <empty-line/>
+    <p><strong>"Лежать!"</strong></p>
+    <p><strong>УС 15</strong></p>
+    <p>Животное прекращает сражение или иное действие и ложится на землю. Животное, не обученное этой команде, продолжает бой пока оппонент не сдастся (бегство, страх) или не умрет.</p>
+    <empty-line/>
+    <p><strong>"Принеси!"</strong></p>
+    <p><strong>УС 15</strong></p>
+    <p>Животное идет и приносит что-либо. Если вы не указали конкретный предмет, то животное приносит что-нибудь случайное.</p>
+    <empty-line/>
+    <p><strong>"Сторожи!" </strong></p>
+    <p><strong>УС 20</strong></p>
+    <p>Животное остается на месте и пресекает все попытки приблизиться к ней.</p>
+    <empty-line/>
+    <p><strong>"Рядом!"</strong> </p>
+    <p><strong>УС 15</strong></p>
+    <p>Животное следует рядом с вами, даже туда, куда бы она ни за что не пошла бы в нормальных условиях.</p>
+    <empty-line/>
+    <p><strong>"Пляши!"</strong> </p>
+    <p><strong>УС 15</strong></p>
+    <p>Животное начинает выполнять элементарные действия (сесть, ходить кругами, рычать или лаять и т.д.).</p>
+    <empty-line/>
+    <p><strong>"Ищи!" </strong></p>
+    <p><strong>УС 15</strong></p>
+    <p>Животное начинает бегать кругами и искать все явно живое или движущееся.</p>
+    <empty-line/>
+    <p><strong>"Стоять!"</strong></p>
+    <p><strong>УС 15</strong></p>
+    <p>Животное остается стоять на месте, ожидая вашего возвращения. Оно не вступает в схватку с кем-либо, проходящим мимо, но тем не менее оно будет защищаться если потребуется.</p>
+    <empty-line/>
+    <p><strong>"След!" </strong></p>
+    <p><strong>УС 20</strong> </p>
+    <p>Животное нюхает вещь, которую вы ему протянули и начинает искать этот запах вокруг. Необходимо чтобы животное обладало обонянием.</p>
+    <empty-line/>
+    <p><strong>"Неси!" </strong></p>
+    <p><strong>УС 15</strong></p>
+    <p>Животное начинает тащить или толкать средний или тяжелый груз.</p>
+    <empty-line/>
+    <p><emphasis>3) Обучить животное сложным командам:</emphasis> Более предпочтительно, чем обучение животного индивидуальным командам. Фастически, суть сложной команды - набор выбранных ранее команд, вписывающихся в общую схему. </p>
+    <p>- Животное должно иметь Интелект 2+.</p>
+    <p>- Необходимо научить животное определенным простым командам, прежде чем приступать к сложным. Необходимый набор команд указан в описании ниже.</p>
+    <p>- Животное может выучить только одну сложную команду. Животные-спутники следопытов и друидов могут выучить дополнительную сложную команду. </p>
+    <p>- Тренировка животного сложному трюку требует меньше проверок, чем обучение индивидуальной команде, но не меньше по времени. </p>
+    <p>- Мастер может позволить придумать свою комбинацию для сложной команды.</p>
+    <empty-line/>
+    <subtitle>Возможные сложные команды</subtitle>
+    <p><strong>Верховая Езда </strong></p>
+    <p><strong>УС 15</strong></p>
+    <p><strong>Команды: </strong>Ко Мне, Рядом и Стоять.</p>
+    <p><strong>Время:</strong> 3 недели</p>
+    <p>Животное обучено везти ездока. Все ездовые животные уже обучены этой команде.</p>
+    <empty-line/>
+    <p><strong>Боевая верховая езда </strong></p>
+    <p><strong>УС 20</strong></p>
+    <p><strong>Команды: </strong>Фас, Ко мне, Защищай, Лежать, Сторожи и Рядом</p>
+    <p><strong>Время:</strong> 6 недель </p>
+    <p>Животное натренировано нести вас в гущу сражения. Боевые кони и Ездовые псы уже обучены этой команде. Вы можете научить животное этому трюку, если оно обучено <strong>Верховой Езде</strong>, затратив при этом 3 недели и выполнить успешную проверку умения Дрессировка. Новый сложный трюк полностью заменяется предыдущим.</p>
+    <empty-line/>
+    <p><strong>Охрана </strong></p>
+    <p><strong>УС 20</strong></p>
+    <p><strong>Команды:</strong> Фас, Защищай, Лежать и Сторожи</p>
+    <p><strong>Время:</strong> 4 недели</p>
+    <p>Животное тренировано охранять. </p>
+    <empty-line/>
+    <p><strong>Охота </strong></p>
+    <p><strong>УС 20</strong></p>
+    <p><strong>Команды: </strong> Фас, Лежать, Принеси, Рядом, Ищи и След</p>
+    <p><strong>Время:</strong> 6 недель.</p>
+    <p>Животное тренировано охотиться. </p>
+    <empty-line/>
+    <p><strong>Представление </strong></p>
+    <p><strong>УС 15</strong></p>
+    <p><strong>Команды: </strong>Ко Мне, Принеси, Рядом, Пляши и Стоять</p>
+    <p><strong>Время:</strong> 5 недель</p>
+    <p>Животное тренировано показывать представление.</p>
+    <empty-line/>
+    <p>4) <emphasis>Дрессировать домашнее животное (УС 10):</emphasis> Это означает приказывать животному, выполнить ту или иную задачу или команду, которые оно знает. Как исключение, чтобы скомандовать тренерованому бойцовскому псу напасть на врага, требуется перекинуть УС 10. Если животное ранено, или имеет несмертельное повреждение или временно пониженную характеристику, то УС увеличивается на 2. Если проверка успешна, то животное исполняет приказ следующим своем действием.</p>
+    <p><emphasis>«Заставить» домашнее животное (УС 25):</emphasis> Означает заставить животное выполнить задачу или команду, которому оно не обучено, но физически способно осуществить. В этот пункт также входит: заставить животное совершить марш-бросок, или просто поспешить, в течении более часа между циклами сна. Если животное ранено, то УС также увеличивается на 2. Если проверка успешна, то животное исполняет приказ на следующем своем действии.</p>
+    <empty-line/>
+    <subtitle>Действие</subtitle>
+    <p>- Дрессировка животного является действием, эквивалентным передвижению. </p>
+    <p>- Для задач с определенными рамками времени, описанными выше, вы должны потратить половину этого времени (из расчета 3 часа в день на одно дрессируемое животное) до того, как вы сделаете проверку умения. Если проверка терпит неудачу, то ваша попытка обучить, вырастить или натренировать животное провалилась и вы можете не продолжать дальнейшее обучение.Если же проверка успешна, то вы должны продолжить выполнение задачи до завершения. Если вас прервали до или после проверки, то вы автоматически терпите неудачу. </p>
+    <empty-line/>
+    <subtitle>Повторное применение</subtitle>
+    <p>- Для того чтобы управлять и тренировать - да. </p>
+    <p>- Чтобы воспитывать - нет. </p>
+    <empty-line/>
+    <subtitle>Особенности</subtitle>
+    <p>- Вы можете использовать это умение на созданий, интелект которых 1 или два, и которые не являются животными, в таком случае УС возрастает на 5. Такие создания имеют аналогичные ограничения на количество команд.</p>
+    <p>- Друид и следопыт получает ситуационный бонус +4 на проверки умения Дрессировка <strong>при попытке обучить животного-спутника</strong>. Кроме того, животные-спутники друидов и следопытов знают до 3-х простых команд сверх лимита, на обучение которым не тратятся ни время, ни проверки умения Дрессировка.</p>
+    <empty-line/>
+    <subtitle>Синергия</subtitle>
+    <p>Каждые 5 рангов в данном навыке дают бонусы к следующим навыкам:</p>
+    <p>- Верховая езда: +1</p>
+   </section>
+   <section id="intimidate">
+    <title>
+     <p>Запугивание (Intimidate)</p>
+    </title>
+    <p><strong>Параметр:</strong> Харизма</p>
+    <p><strong>Штрафы за ношение доспеха:</strong> Нет</p>
+    <p>Применяйте этот навык, чтобы заставить хулигана отступить, или принудить пленного дать вам нужную информацию. Вы можете быть хорошим актером, или же иметь специфическую внешность, - во всех случаях, вы сможете эффективно использовать Запугивание.</p>
+    <empty-line/>
+    <subtitle>Проверка</subtitle>
+    <p>1) Вы можете изменить поведение других при успешной проверке. </p>
+    <p>- Вы делаете проверку Запугивания, используя следующий УС: 1d20 + уровень жертвы или КХП + Модификатор Мудрости жертвы (если есть) + модификаторы жертвы к спасброскам против Страха</p>
+    <p>- Если вы перебрасываете результат вашей жертвы, её удалось запугать (Т.е. жертва сохраняет прежнее отношение к вам, но тем не менее будет с вами общаться, предлагать ограниченную помощь, в общем, вести дружелюбно по отношению к вам) Эффект длится все время, пока жертва находится в вашем присутствии и еще 1d6х10 минут после. </p>
+    <p>- После окончания действия запугивания, отношение жертвы к вам меняется на недружелюбное (а если до запугивания было дружелюбным, то меняется на враждебное).</p>
+    <p>- Если вам нехватает 5 и более очков до требуемого числа, то жертва дает вам ложную или бесполезную информацию, или как-то иначе пресекает ваши попытки.</p>
+    <p>2) Благодаря Запугиванию, вы владеете особым умением "Внушить испуг". </p>
+    <p>- Использование данного умения занимает действие передвижения.</p>
+    <p>- Вы делаете проверку Запугивания, используя следующий УС: 1d20 + уровень жертвы или КХП + Модификатор Мудрости жертвы (если есть) + модификаторы жертвы к спасброскам против Страха</p>
+    <p>- Если вы перебрасываете результат вашей жертвы, она получает статус "потрясен" на 1 раунд.</p>
+    <p>- За каждую попытку после первой использовать данное умение против одной и той же жертвы на протяжении одного боя, вы будете получать штраф -2 к проверке Запугивания (штраф накапливается). </p>
+    <empty-line/>
+    <subtitle>Действие</subtitle>
+    <p>Попытка применения запугивания занимает минимум минуту. В зависимости от ситуации, может потребоваться больше времени.</p>
+    <empty-line/>
+    <subtitle>Повторное применение</subtitle>
+    <p>При запугивании - по желанию, но не рекомендуется. </p>
+    <p>- Даже если начальная проверка преуспевает, жертва может быть запугана до определенного предела. </p>
+    <p>- Если начальная проверка терпит неудачу, жертва, вероятно, становится более отважной, и лучше сопротивляется внушению.</p>
+    <empty-line/>
+    <subtitle>Особенности</subtitle>
+    <p>- Бонус от Харизмы для этого навыка вы получаете, даже если модификатор отрицательный (если это так, в этом случае просто игнорируйте минус и прибавляйте получившийся "бонус").</p>
+    <p>- Вы получаете бонус +4 к Запугиванию за каждую единицу разницы размера свыше жертвы (и штраф –4 наоборот)</p>
+    <p>- Данное умение не работает на персонажей, имеющих иммунитет к страху, или с нулевым Интеллектом.</p>
+   </section>
+   <section>
+    <title>
+     <p>Знание (Knowledge)</p>
+    </title>
+    <p><strong>Только тренированный</strong></p>
+    <p><strong>Параметр:</strong> Интеллект</p>
+    <p><strong>Штрафы за ношение доспеха:</strong> Нет</p>
+    <p>Подобно умениям Ремесло и Профессия, Знание фактически охватывает множество несвязанных между собой умений. Знание представляет изучение некоторой отрасли, возможно академической или даже научной дисциплины. Ниже приведены типичные области знаний. С согласия вашего мастера вы можете изобрести новые отрасли знания.</p>
+    <p>- Магия (древние тайны, магические традиции, волшебные символы, загадочные фразы, механизмы, драконы, магические звери)</p>
+    <p>- Архитектура и инженерия (здания, акведуки, мосты и фортификации)</p>
+    <p>- Подземелья (необычные, пещеры, слизи, спелеология)</p>
+    <p>- География (земли, ландшафты, люди, обычаи)</p>
+    <p>- История (королевская власть, войны, колонии, переселения, основания городов)</p>
+    <p>- Местное (легенды, личности, обитатели, законы и традиции, гуманоиды)</p>
+    <p>- Природа (растения и животные, феи, великаны, ужасные гуманоиды, насекомые, сезоны и их цикличность, погода)</p>
+    <p>- Дворянство и Короли (родословные линии, геральдика, происхождение, обычаи, девизы, личности, законы)</p>
+    <p>- Измерения (Внутренние Планы, Внешние, Астральный, Эфирный, обитатели планов, магия связанная с планами, внешние, элементали)</p>
+    <p>- Религия (боги и богини, история в мифах, духовные традиции, священные символы, нежить)</p>
+    <empty-line/>
+    <subtitle>Проверка</subtitle>
+    <empty-line/>
+    <p>1) Ответ на вопрос из вашей области знаний имеет:</p>
+    <p>- УС 10 (для легких вопросов); </p>
+    <p>- УС 15 (для основных вопросов); </p>
+    <p>- УС от 20 до 30 (для трудных вопросов).</p>
+    <p>2) С помощью этого умения вы можете получать информацию о монстрах, их скрытых навыках и уязвимых местах. </p>
+    <p>- УС для таких проверок равен 10 + Кость Хитов монстра. </p>
+    <p>- Удачная проверка означает, что вы вспомнили непного полезной информации о монстре. </p>
+    <p>- За каждые 5 очков броска сверх УС вы получаете дополнительную информацию о монстре.</p>
+    <p>- Любая область знаний может предоставить информацию о монстрах, но могут быть и ограничения. Подробней уточняйте у Мастера.</p>
+    <empty-line/>
+    <empty-line/>
+    <subtitle>Действие</subtitle>
+    <p>Проверка Знания не требует действия – вы просто либо знаете ответ на вопрос, либо нет.</p>
+    <empty-line/>
+    <subtitle>Повторное применение</subtitle>
+    <p>Нет. Проверка представляет то, что вы знаете, и обдумывание вопроса не даст  вам никакого нового знания.</p>
+    <empty-line/>
+    <subtitle>Особенности</subtitle>
+    <p>Без прокачанных навыков Знания вы знаете лишь общеизвестные факты (УС менее 10). В этих случаях просто используйте в качестве бонуса к броску модификатор Интеллекта.</p>
+    <empty-line/>
+    <subtitle>Синергия</subtitle>
+    <p>Каждые 5 рангов в данном навыке дают бонусы к следующим навыкам:</p>
+    <p>- Искусство магии: +2, если Знание (Магия)</p>
+    <p>- Поиск: +2, если Знание (Архитектура и инженерия) и ведется поиск скрытых дверей, проходов и т.д.</p>
+    <p>- Выживание: +2, если Знание (География), при попытках найти выход в естественной глуши.</p>
+    <p>- Выживание: +2, если Знание (Природа), на этом измерении (поверхности земли/воды, пустыни/леса/холмов/болота и т.д.).</p>
+    <p>- Выживание: +2 ,если Знание (Измерения), в других измерениях.</p>
+    <p>- Выживание: +2, если Знание (Подземелье), только под землёй.</p>
+    <p>- Умение "Знание бардов": +2 к проверкам, если Знание (История).</p>
+    <p>- Сбор информации: +2, если Знание (Местное).</p>
+    <p>- Дипломатия: +2, если Знание (Дворянство и Короли).</p>
+    <p>- Умение "Изгнать/подчинить нежить": +2 к броску d20 (максимальное значение КХП нежити), если Знание (Религия).</p>
+   </section>
+   <section>
+    <title>
+     <p>Использование верёвки (Use Rope)</p>
+    </title>
+    <p><strong>Параметр:</strong> Ловкость</p>
+    <p><strong>Штрафы за ношение доспеха:</strong> Нет</p>
+    <p>С этим умением вы можете вязать прочные узлы, развязывать их и связывать пленников веревками.</p>
+    <empty-line/>
+    <subtitle>Проверка</subtitle>
+    <p>Большинство задач с веревкой относительно просты:</p>
+    <p>- Завязать крепкий узел (УС 10);</p>
+    <p>- Закрепить веревку с "кошкой" (УС 10 + 2 за каждые 3 метров расстояния, на которое метается "кошка"). Провал на 4 очка или меньше означает, что крюк не зацепился и упал, что дает вам возможность попытаться снова. Провал на 5 и более очков означает, что крюк зацепился, но отвалится спустя 1d4 раундов, в течении которых по нему будет кто-то взбираться. Мастер делает эту проверку тайно, т.к. вы не знаете выдержит ли веревка ваш вес;</p>
+    <p>- Завязать особый узел, вроде скользящего или развязывающегося после рывка (УС 15)</p>
+    <p>- Завязать веревку вокруг себя одной рукой (УС 15)</p>
+    <p>- Связать две веревки (УС 15)</p>
+    <p>- Связать персонажа: Когда вы связываете веревкой другого персонажа, то проверка <strong>Мастерства побега</strong>, которую делает связанный персонаж, противостоит вашей проверке <strong>Использования веревки</strong>. Вы получаете бонус +10 к проверке, потому что легче связать кого-либо, нежели освободиться. Вам не нужно делать проверку Использования Веревки, пока кто-нибудь не пробует освободиться. </p>
+    <empty-line/>
+    <subtitle>Действие</subtitle>
+    <p>- Бросок "кошки" является стандартным действием, провоцирующим атаку при возможности. </p>
+    <p>- Завязать узел, завязать особый узел, или завязать вокруг себя веревку одной рукой является действием одного раунда, провоцирующим атаку при возможности. </p>
+    <p>- Связывание двух веревок занимает 5 минут. </p>
+    <p>- Связывание персонажа – 1 минуту.</p>
+    <empty-line/>
+    <subtitle>Повторное применение</subtitle>
+    <p>Неограниченно, вы всегда можете вновь связать узел или пленника, если есть такая необходимость (или возможность).</p>
+    <empty-line/>
+    <subtitle>Особенности</subtitle>
+    <p>- Верёвка из определенных материалов (например, шелковая) даёт условный бонус +2 к проверкам Использования верёвки.</p>
+    <p>- Заклинание "Оживить Веревку" дает условный бонус +2 к проверкам Использования верёвки, которая стала целью данного заклинания.</p>
+    <empty-line/>
+    <subtitle>Синергия</subtitle>
+    <p>Каждые 5 рангов в данном навыке дают бонусы к следующим навыкам:</p>
+    <p>Лазание: +2, по верёвке.</p>
+    <p>Мастерство побега: +2, только против верёвочных пут.</p>
+   </section>
+   <section>
+    <title>
+     <p>Использование магических устройств (Use Magic Device)</p>
+    </title>
+    <p><strong>Только тренированный</strong></p>
+    <p><strong>Параметр:</strong> Харизма</p>
+    <p><strong>Штрафы за ношение доспеха:</strong> Нет</p>
+    <p>Применяйте это умение, чтобы активировать магические устройства, включая свитки и палочки, которые вы не могли активировать иначе.</p>
+    <empty-line/>
+    <subtitle>Проверка</subtitle>
+    <p>Вы можете использовать это умение, чтобы читать заклинания или активировать волшебные предметы. Это умение позволяет вам использовать волшебный предмет, как будто вы имеете способность к заклинаниям или особенности другого класса, или считаетесь определенной расой или другого мировоззрения.</p>
+    <p>Вы делаете проверки подражания каждый раз, когда вы активируете устройство типа волшебной палочки. Если вы используете проверку подражания, чтобы сойти по мировоззрению или некоему иному качеству за кого-то иного заново (например, подражать нейтрально злому, чтобы предотвратить себя от повреждения <emphasis>книгой ужасающей тьмы</emphasis>, которую вы берете в руки, хоть вы и не злой), вы должны сделать удачные проверки подражания один раз в час.</p>
+    <p>Вы должен сознательно захотеть подражать. То есть, вы должны знать, чему вы пытаетесь подражать.</p>
+    <p>Вариации:</p>
+    <p>- <strong>Активировать вслепую (УС 25):</strong> Некоторые волшебные предметы активизируются особыми словами, мыслями или действиями. Вы можете активизировать такие предметы, как будто используете слово активации, мысль или действие, даже если вы и не знаете его. Вы должны использовать какой-то эквивалент. Вы должны говорить, махать предметом или иначе пытаться заставить его активироваться. Вы получаете особый бонус +2, если активировали предмет по крайней мере раз до того.</p>
+    <p>Если вы терпите неудачу, недобрав 9 и менее, то у вас не получается активировать устройство. Если же вы недобираете 10 и более, то у вас провал. Это означает, что волшебная энергия выпускается, но не делает того, что вы хотели. ДМ определяет результат провала, как в случае со свитками. Обычно, предмет воздействует не на ту цель, или вся безудержная волшебная энергия приходится на вас, нанося вам 2d6 единиц урона. Обратите внимание: этот провал добавляется к шансу провала, который вы обычно имеете, когда творите заклинание со свитка, а требуемый уровень заклинателя выше, чем ваш уровень;</p>
+    <p>- <strong>Расшифровать свиток (УС 25 + уровень заклинателя)</strong>;</p>
+    <p>- <strong>Расшифровать записанное заклинание (УС 30 + уровень заклинателя):</strong> схоже с расшифровкой записанного заклинания проверкой навыка Искусства магии, только на 5 УС выше;</p>
+    <p>- <strong>Использовать свиток (УС 20 + уровень заклинателя):</strong> Если вы творите заклинание со свитка, то вы должны сначала расшифровать его (см. выше). </p>
+    <p>В дополнение, сотворение заклинание со свитка требует минимального значения соответствующей характеристики (10 + уровень заклинания). Если вы не имеете этого значения, то вам нужно попытаться его имитировать (см. выше).</p>
+    <p>- <strong>Использовать волшебную палочку (УС 20):</strong> Обычно, чтобы использовать палочку, вы должны иметь заклинание палочки в своем списке заклинаний. Однако, использование этого умения позволяет вам сотворить заклинание с палочки, не имея его в своем списке. Этот пункт также распространяется и на магические посохи.</p>
+    <p>- <strong>Имитировать классовую особенность/принадлежность (УС 20);</strong></p>
+    <p>- <strong>Имитировать величину параметра:</strong> Чтобы сотворить заклинание со свитка, вам нужна высокое значение соответствующего параметра (Интеллект для заклинаний магов, Мудрость для божественных заклинаний, Харизма для заклинаний барда и колдуна). Ваше итоговое значение характеристики равно: проверка навыка Использование магических устройств – 15. Если вы уже имеете достаточно высокое значение соответствующей характеристики, то проверка не требуется.</p>
+    <p>- <strong>Имитация расы (УС 25): </strong>Некоторые волшебные предметы работают только для некоторых рас, или работают для них лучше. Вы можете использовать такой предмет, как будто принадлежите той расе. Вы можете подражать только одной расе одновременно.</p>
+    <p>- <strong>Имитация класса (УС 30);</strong></p>
+    <p>- <strong>Подражание мировоззрению</strong>: Некоторые волшебные предметы имеют положительные или отрицательные эффекты, основанные на вашем мировоззрении. Вы можете использовать эти предметы, как будто вы обладаете мировоззрением по вашему выбору. Вы можете подражать только одному мировоззрению одновременно.</p>
+    <empty-line/>
+    <subtitle>Действие</subtitle>
+    <p>Отсутствует. Проверка умения осуществляется как часть действия, эквивалентного активации магического устройства.</p>
+    <empty-line/>
+    <subtitle>Повторное применение</subtitle>
+    <p>Да, но если вы выбрасываете 1 при попытке активировать предмет и терпите неудачу, тогда вы не можете пробовать активировать его снова в течение 24 часов.</p>
+    <empty-line/>
+    <subtitle>Особенности</subtitle>
+    <p>- Вы не можете “брать 10” с этим умением</p>
+    <p>- Вы не можете помочь другому персонажу провести проверку этого умения.</p>
+    <empty-line/>
+    <subtitle>Синергия</subtitle>
+    <p>Каждые 5 рангов в данном навыке дают бонусы к следующим навыкам:</p>
+    <p>Искусство магии: +2, при расшифровке заклинания со свитков.</p>
+   </section>
+   <section>
+    <title>
+     <p>Концентрация (Concentration)</p>
+    </title>
+    <p><strong>Параметр:</strong> Телосложение</p>
+    <p><strong>Штрафы за ношение доспеха:</strong> Нет</p>
+    <p>Вы умеете хорошо сосредотачиваться, несмотря на обстоятельства. Этот навык особенно полезен для заклинателей, однако умения и способности некоторых других классов также нуждаются в <strong>Концентрации</strong>. </p>
+    <empty-line/>
+    <subtitle>Проверка</subtitle>
+    <p>Вы должны сделать проверку Концентрации всякий раз, когда вас могут отвлечь от проведения какого-либо действия, требующего всего вашего внимания (нанеся вам повреждение, из-за мерзкой погоды и прочее). К таким действием относятся: </p>
+    <p>- сотворение заклинаний;</p>
+    <p>- концентрация на действующем заклинании;</p>
+    <p>- управление заклинанием;</p>
+    <p>- использование магических способностей (способность паладина <emphasis>Излечение болезни</emphasis>);</p>
+    <p>- использование навыка, провоцирующее атаку при возможности (Поломка устройства, Лечение, Взлом, Использование веревки). </p>
+    <p>Если действие не провоцирует атаку при возможности, то проверку делать не следует.</p>
+    <p>Если проверка Концентрации успешна, то вы можете продолжить действие. Если провалена, то действие автоматически прерывается и утрачивается. Если вы пытались сотворить заклинание, заклинание утрачивается. Если вы концентрировались на активном заклинании, заклинание прекращается, как если бы вы прекратили концентрацию на нем. Если вы пытались управлять заклинанием, то заклинание остается неизменным. Если вы использовали магическую способность, она не действует.</p>
+    <p>Вариации:</p>
+    <p>- Ранение во время действия (УС 10 + полученный урон);</p>
+    <p>- Под действием длительного урона (УС 10 + половина полученного урона);</p>
+    <p>- Активное движение (на скачущей лошади, подпрыгивающей телеге, маленькой лодке в неспокойной воде, в трюме корабля в бурю) (УС 10);</p>
+    <p>- Интенсивное движение ( на скачущей галопом лошади, подлетающей карете, маленькой лодки на стремнине, на палубе корабля в бурю) (УС 15);</p>
+    <p>- Очень интенсивное движение (землетрясение) (УС 20);</p>
+    <p>- Будучи связанным (УС 15);</p>
+    <p>- Находясь в борьбе или захвате (УС 20);</p>
+    <p>- Неблагоприятные погодные условия (ветер в лицо, дождь, снег) (УС 5);</p>
+    <p>- Ветер с градом, пыль, осколки (УС 10).</p>
+    <p>Если проверка Концентрации проводится для заклинания (сотворение, концентрация на нём или управление им), добавьте уровень заклинания к УС сложности.</p>
+    <empty-line/>
+    <subtitle>Действие</subtitle>
+    <p>Отсутствует. Проверка Концентрации не является полным действием; это как свободное действие или часть другого действия.</p>
+    <empty-line/>
+    <subtitle>Повторное применение</subtitle>
+    <p>Да, хотя успех не отменяет действия предыдущих неудач, которые почти всегда являются потерей творимого заклинания или разрушением заклинания, на котором персонаж концентрируется.</p>
+    <empty-line/>
+    <subtitle>Особенности</subtitle>
+    <p>- Вы не можете “брать 10” с этим умением</p>
+   </section>
+   <section>
+    <title>
+     <p>Лазание (Climb)</p>
+    </title>
+    <p><strong>Параметр:</strong> Сила</p>
+    <p><strong>Штрафы за ношение доспеха:</strong> Да</p>
+    <p>Применяйте этот навык, чтобы взобраться на утес, чтобы влезть в окно на втором этаже башни колдуна или выбраться из ямы после падения в нее через ловушку в полу. </p>
+    <empty-line/>
+    <subtitle>Проверка</subtitle>
+    <p>При успешной проверке Лазания вы можете продвигаться вверх, вниз, перелезать на другую сторону склона или стены или через другие высокие препятствия (можно даже передвигаться по потолку, если есть за что удержаться руками) с четвертью вашей скорости, это полное действие. Склоном считается наклонная плоскость с углом наклона менее 60 градусов; стена – более 60 градусов.</p>
+    <p>Проваленная проверка Лазания означает, что вы остаетесь на месте, а недобор 5 и более очков до нужного результата означает, что вы упали с уже достигнутой высоты. </p>
+    <p>Вам нужны обе руки для лазания, но вы можете удержаться на стене одной рукой, пока кастуете заклинание, или совершаете любое другое действие, требующее только одну руку. Пока карабкаетесь, вы не можете увернуться от удара, поэтому теряете бонус ловкости к КЗ. Также, вы не можете использовать щит во время лазания.</p>
+    <p>Каждый раз, когда вы получаете повреждение во время лазания, делайте проверку против УС склона или стены. Неудача означает, что вы упали с достигнутой высоты и вам наносится соответствующий урон от падения.</p>
+    <p><emphasis>Ускоренное Лазание:</emphasis> Вы пытаетесь вскарабкаться быстрее, чем обычно. Получая штраф –5, вы можете двигаться с половиной вашей скорости.</p>
+    <p><emphasis>Сделать Собственные Опоры для Рук и Ног: </emphasis>Можно сделать собственные опоры для рук и ног, вбивая в стену клинья. На один клин уходит 1 минута и необходимо забивать один клин на каждые 3 фута. Как и любая поверхность с опорами для рук и ног, стена с клиньями имеет УС 15. Схожим образом, скалолаз может вырубить опоры в ледяной стене с помощью ручного топорика или подобного инструмента. </p>
+    <p><emphasis>Удержаться при Падении:</emphasis> Практически невозможно снова зацепиться за стену при падении. Для этого сделайте проверку Лазания (УС = УС стены + 20). При падении со склона удержаться намного легче (УС = УС склона + 10). </p>
+    <p>Поймать Пролетающего Мимо Персонажа: Если кто-то карабкается над вами или рядом с вами и теперь срывается и падает, то вы можете попытаться схватить его, если он в пределах вашей досягаемости. Этот прием требует вашей успешной атаки касанием падающего персонажа (подразумевается, что персонаж может при желании убрать свой модификатор ловкости к КЗ). Если вы попадаете, то должны немедленно кинуть проверку Лазания против УС стены + 10. Успех означает, что вы поймали падающего, но его общий вес (включая снаряжение) не должен превышать вашу максимальную грузоподъемность, в противном случае вы автоматически срываетесь вниз. Если  вам нехватило 4 и менее очков до нужного числа, то вы не успеваете схватить пролетающего персонажа, но сами остаетесь на стене. Если же вы недобрасываете 5 и более очков, то летите следом за уже падающим персонажем.</p>
+    <p>Вариации:</p>
+    <p>- Склон слишком крут, чтобы идти по нему. Узловатая веревка укреплена на стене. (УС 0)</p>
+    <p>- Веревка на стене, или узловая веревка, или веревка с наложенным на ней заклинанием фокус с веревкой.  (УС 5)</p>
+    <p>- Поверхность с выступами, как очень старая стена или такелаж на судне. (УС 10)</p>
+    <p>- Любая поверхность с выступами для рук и ног (естественная или искусственная), как скала в трещинах или дерево. Веревка без узлов. (УС 15)</p>
+    <p>- Неровная поверхность с несколькими узкими щелями, как обычная стена в подземелье или развалинах.  (УС 20)</p>
+    <p>- Грубая поверхность, как естественная скала или каменная кладка. (УС 25)</p>
+    <p>- Выступ или навес с трещинами только для рук. (УС 25)</p>
+    <p>- На очень скользкую, ровную, вертикальную поверхность нельзя забраться. (УС —)</p>
+    <p>- Лазание по каминной трубе или в другом месте, где можно опираться на две противоположные стены  (сокращает УС на 10)</p>
+    <p>- Лазание по угловой поверхности, где можно опираться на перпендикулярно стоящие стены (сокращает УС на 5)</p>
+    <p>- Поверхность скользкая (увеличивает УС на 5)</p>
+    <empty-line/>
+    <subtitle>Действие</subtitle>
+    <p>Лазание является частью передвижения, так что может быть частью движения, эквивалентного передвижению (и при этом вы можете совершать другие подобные действия). Каждое действие, эквивалентное передвижению, включающее в себя элемент лазания, требует отдельной проверки Лазания. Попытка удержаться на стене и схватить пролетающего мимо персонажа не занимает действие.</p>
+    <empty-line/>
+    <subtitle>Особенности</subtitle>
+    <p>- Снаряжение скалолаза дает условный бонус +2 к броскам проверки Лазания. </p>
+    <p>- Вы можете использовать веревку чтобы тащить вверх (или вниз) другого персонажа. В таком случае вы можете тащить вес, в два раза превышающий вашу максимальную грузоподъемность.</p>
+    <p>- Персонаж со скоростью лазания (паук, или существо, находящееся под действием заклинания "Паук" (spider climb)) получает расовый бонус +8 на все проверки Лазания. Этот персонаж должен делать проверку Лазания для любой стены или склона с УС больше 0, но он всегда может "взять 10", даже если он в спешке или под угрозой во время лазания. Если такой персонаж выбирает ускоренное лазание, то он двигается со скоростью, в два раза превышающей его скорость лазания, и делает одну проверку Лазания со штрафом –5. Такой персонаж сохраняет бонус ловкости к КЗ, а атакующие его не получают никаких бонусов. Однако, он не может использовать режим "бег" для лазания.</p>
+   </section>
+   <section>
+    <title>
+     <p>Лечение (Heal)</p>
+    </title>
+    <p><strong>Параметр:</strong> Мудрость</p>
+    <p><strong>Штрафы за ношение доспеха:</strong> Нет</p>
+    <p>Применяйте это умение, чтобы предотвратить смерть серьезно раненого друга, помочь другим быстрее оправиться от ран, вылечить друга от яда виверна или излечить болезнь.</p>
+    <empty-line/>
+    <subtitle>Проверка</subtitle>
+    <p>Зависит от поставленной задачи.</p>
+    <p>Вариации:</p>
+    <p>- Первая помощь (УС 15)<emphasis>:</emphasis> Первая помощь обычно означает спасение персонажа от смерти. Если персонаж имеет отрицательные хиты и продолжает их терять (1 за раунд, 1 в час или 1 в день), вы можете стабилизировать его состояние. Персонаж не восстанавливает никаких хитов, но он прекращает терять их. </p>
+    <p>- Уход (УС 15)<emphasis>:</emphasis> Обеспечение ухода означает лечение и заботу о раненном в течение дня и более. Если проверка успешна, вы помогаете пациенту восстанавливать хиты или единицы  характеристики (потерянные из-за временного урона) в два раза быстрее нормы: 2 хита (значения характеристики) за уровень в течении 8-часового отдыха, или 4 хита (значения характеристики) за уровень за каждый полный день ухода. Вы можете ухаживать за шестью пациентами одновременно. Вам нужны некоторые предметы и материалы (бинты, мази и так далее), которые легко достать в цивилизованных странах.</p>
+    <p>Уход считается легкой деятельностью для лекаря. Вы не можете оказывать уход самому себе.</p>
+    <p>- Лечить раны от шипов (УС 15): Существо,  наступившее на «ежа», сокращает свою скорость до половины обычной. Успешная проверка Лечения снимает этот штраф передвижения.</p>
+    <p>Существо, раненное шипами и каменными шипами, должно сделать успешный спасбросок Реакции или получает урон, который замедляет его скорость на одну треть. Другой персонаж может снять этот штраф,  тратя 10 минут, чтобы вылечить жертву, и сделав успешную проверку Лечения против УС заклинания.</p>
+    <p>- Лечить отравления ядами (УС спасброска яда): Лечить отравления ядами означает вылечить отдельного персонажа, который был отравлен и который во время сотворения еще получает урон от яда (или переносит некоторые другие эффекты). Каждый раз, когда отравленный персонаж делает спасбросок против яда, вы делаете проверку Лечения. Отравленный персонаж использует ваш результат вместо своего спасброска, если ваш результат Лечения выше.</p>
+    <p>- Лечить болезни (УС спасброска болезни): Лечить болезни означает излечить больного персонажа. Каждый раз, когда больной персонаж делает спасбросок против эффектов болезни, вы делаете проверку Лечения. Больной персонаж использует ваш результат вместо своего, если ваш результат Лечения выше.</p>
+    <empty-line/>
+    <subtitle>Действие</subtitle>
+    <p>- Оказывание первой помощи, лечение ран или яда – стандартное действие. </p>
+    <p>- Лечение болезни или в случае с шипами занимает 10 минут работы. </p>
+    <p>- Уход требует 8-часовой легкой активности.</p>
+    <empty-line/>
+    <subtitle>Повторное применение</subtitle>
+    <p>Различное. Фактически, вы не можете пытаться лечить снова, не убедившись, что предыдущая попытка оказалась провалена. Например, пока отравленный персонаж делает спасбросок против яда, он которого вы его лечите, вы не знаете, успешно ли лечение. Вы можете всегда повторить попытку оказания первой помощи, предполагая, что пациент жив после предыдущей попытки.</p>
+    <empty-line/>
+    <subtitle>Особенности</subtitle>
+    <p>- Набор Лекаря дает условный бонус +2 к проверкам Лечения.</p>
+   </section>
+   <section>
+    <title>
+     <p>Ловкость рук (Sleight of Hand)</p>
+    </title>
+    <p><strong>Только тренированный</strong></p>
+    <p><strong>Параметр:</strong> Ловкость</p>
+    <p><strong>Штрафы за ношение доспеха:</strong> Да</p>
+    <p>Вы можете вытаскивать кошельки, залезать в чужие вещи и показывать фокусы с исчезновением предметов не больше шляпы или буханки хлеба.</p>
+    <empty-line/>
+    <subtitle>Проверка</subtitle>
+    <p>Проверка против УС 10 позволяет вам стащить объект размером с монету, оставленный без присмотра. Мелкие фокусы вроде исчезновения монеты также имеют УС 10, если никто не замечает, куда пропал предмет.</p>
+    <p>При применении этого умения во время пристального наблюдения ваша проверка умения противопоставляется проверке Внимательности смотрящего. Проверка смотрящего не мешает вам выполнять действия, только эти действия перестают быть незаметными.</p>
+    <p>Вы можете спрятать небольшой предмет (включая легкое оружие, например, ручной топор, праща, ручной арбалет, дротик) на своем теле. В таком случае ваше умение Ловкость Рук противостоит умению Поиск наблюдающего за вами существа. В таком случае, наблюдатель получает бонус +4 к проверке Поиска, т.к. найти предмет проще, чем спрятать его. Кинжал спрятать легче, чем большинство легкого оружия, так что вы получаете бонус +2. Очень маленькие объекты (монета, кольцо, сюрикен) вы прячете с бонусом +4. К тому же, если вы носите широкие или мешковатые одежды, то получаете еще и +2 к проверке. Доставание скрытых объектов не провоцирует атаку при возможности.</p>
+    <p>Если вы пытаетесь взять что-либо у другого существа, вы должны делать проверку умения против УС 20. Противник делает проверку Внимательности, чтобы заметить эту попытку. Противник замечает вашу попытку, если результат проверки превосходит ваш результат проверки, независимо от того, взяли ли вы предмет или нет.</p>
+    <p>Вы также можете использовать Ловкость рук для показа представления аудитории как если бы вы использовали умение Представление. В таком случае, ваш номер включает в себя жонглирование, фокусы и подобное.</p>
+    <empty-line/>
+    <subtitle>Действие</subtitle>
+    <p>Любая проверка умения – стандартное действие. Однако, вы можете совершить проверку как свободное действие, получив штраф –20. </p>
+    <empty-line/>
+    <subtitle>Повторное применение</subtitle>
+    <p>Вторая попытка против той же самой цели или под пристальным наблюдением того же самого смотрящего имеет УС на 10 выше, чем первая проверка, если первая проверка потерпела неудачу или была замечена.</p>
+    <empty-line/>
+    <subtitle>Особенности</subtitle>
+    <p>Без прокачанного навыка Ловкость рук вы не можете преуспеть в любых проверках навыка выше 10 УС, за исключением случая с прятанием объекта у себя на теле.</p>
+   </section>
+   <section>
+    <title>
+     <p>Мастерство побега (Escape Artist)</p>
+    </title>
+    <p><strong>Параметр:</strong> Ловкость</p>
+    <p><strong>Штрафы за ношение доспеха:</strong> Да</p>
+    <p>Применяйте это умение, чтобы освободиться от уз или оков, протиснуться через узкий лаз или вырваться из объятий монстра, который схватил вас. </p>
+    <empty-line/>
+    <subtitle>Проверка</subtitle>
+    <p>Вариации:</p>
+    <p>- Веревки (Проверка Использования веревки + 10): Ваша проверка <emphasis>Мастер Побега</emphasis> противопоставляется проверке Использовать Веревку связывающего. Поскольку легче связать кого-либо, чем избежать этого, связывающий получает специальный бонус +10 к своим проверкам. </p>
+    <p>- Узкий лаз (УС 30): Применяется УС для прохождения через отверстие или лаз, куда проходит голова, но не плечи. Если лаз длинный, например, дымоход, Мастер может потребовать многократных проверок. Нельзя протиснуться через отверстие, в которое не проходит голова.</p>
+    <p>- Сеть, заклинания "Оживить веревку", "Управлять растениями", "Контролировать Растения"  или "Опутывание" (УС 20);</p>
+    <p>- Заклинание "Силок" (УС 23);</p>
+    <p>- Ручные кандалы (УС 30);</p>
+    <p>- Кандалы мастерской работы (УС 35);</p>
+    <p>- Можно делать взаимную проверку умения Мастер Побега против проверки борьбы вашего врага, чтобы освободиться от захвата (если вас уже удерживают или если только пытаются это сделать). </p>
+    <empty-line/>
+    <empty-line/>
+    <subtitle>Действие</subtitle>
+    <p>- Проверка Мастерства побега против веревок и кандалов требует 1 минуту работы. </p>
+    <p>- Освобождение из сети или от заклинаний – действие полного раунда. </p>
+    <p>- Освобождение от захвата или попытки захвата – свободное действие. </p>
+    <p>- Протискивание сквозь дыру или лаз – как минимум 1 минута, может и больше, в зависимости от длины лаза.</p>
+    <empty-line/>
+    <subtitle>Повторное применение</subtitle>
+    <p> Вы можете делать еще проверку после неудачной, если пытаетесь пролезть через узкий лаз, делая многократные проверки. Если позволяют обстоятельства, вы можете делать дополнительные проверки или даже «брать 20» до тех пор, пока вам не помешают. </p>
+    <empty-line/>
+    <subtitle>Синергия</subtitle>
+    <p> Использование верёвки: +2, при связывании кого-либо.</p>
+   </section>
+   <section>
+    <title>
+     <p>Внимательность (Spot)</p>
+    </title>
+    <p><strong>Параметр:</strong> Мудрость</p>
+    <p><strong>Штрафы за ношение доспеха: </strong>Нет </p>
+    <p>Применяйте этот навык, чтобы заметить бандитов, прячущихся в засаде, увидеть плута в тени или гигантскую многоножку в куче мусора.</p>
+    <empty-line/>
+    <subtitle>Проверка</subtitle>
+    <p>Данный навык используется, прежде всего, чтобы обнаружить прячущихся персонажей или существ. Как правило, Внимательность противопоставлено проверкам Скрытности. Иногда существо прячется непреднамеренно, но его все равно трудно увидеть, так что успешная проверка Внимательности необходима и в этом случае.</p>
+    <p>Результат проверки Внимательности больше 20 может позволить вам заметить силуэт невидимого существа рядом с вами (хотя вы фактически не можете его видеть).</p>
+    <p>Внимательность также применяется для того, чтобы найти кого-то загримировавшегося (см. навык Гримировка), а также чтобы читать по губам, когда вы не слышите оппонента.</p>
+    <p>Мастер может провести проверку Внимательности для определения дистанции, с которой начинается стычка. Штраф, применяемый на такую проверку, зависит от расстояния между двумя существами или группами, а также дополнительный штраф может применяться если персонаж, применяющий Внимательность, отвлекается чем-либо, например:</p>
+    <p>- За каждые 10 футов расстояния, штраф к проверке –1</p>
+    <p>- В рассеянном состоянии, штраф к проверке –5</p>
+    <p>Читать по Губам: Чтобы понять, что существо говорит, читая по его губам, вы должны быть в пределах 9 метров от говорящего, должны видеть его и понимать язык, на котором он говорит. Базовый УС 15, но он может быть увеличен в зависимости от сложности речи или если речь нечленораздельная. Вы должны держать говорящего в поле зрения.</p>
+    <p>Если ваша проверка успешна, то вы понимаете основной смысл, сказанный за минуту разговора, но вы по-прежнему упускаете некоторые детали. Если попытка проваливается на 4 и менее очков, то вы не можете прочитать по губам ничего. Если же на 5 и более очков, то вы получаете ложную информацию (поэтому Мастер кидает эту проверку тайно).</p>
+    <empty-line/>
+    <subtitle>Действие</subtitle>
+    <p>- Каждый раз, когда у вас есть шанс обнаружить что-либо (например, когда кто-нибудь пытается проскользнуть позади вас, или когда вы вступаете в неисследованную область), вы можете кинуть проверку Внимательности, не используя действие. </p>
+    <p>- Пытаясь обнаружить что-либо, что не обнаружили ранее, - тратите действие. </p>
+    <p>- Чтобы прочитать по губам, вы должны концентрироваться целую минуту перед проверкой, и вы не можете проводить никакие другие действия (кроме передвижения с половиной вашей скорости) в течение этой минуты.</p>
+    <empty-line/>
+    <subtitle>Повторное применение</subtitle>
+    <p>- Вы можете без штрафов делать проверку Внимательности каждый раз, когда имеете возможность заметить что-либо новое. </p>
+    <p>- Мастер может призвать вас сделать проверку Внимательности при определении дистанции, с которой вас можно застать врасплох. </p>
+    <p>- Взяв полное действие, вы можете попытаться определить что-либо, что не сумели определить раньше. </p>
+    <p>- Попытку прочитать по губам можно повторять раз в минуту.</p>
+    <empty-line/>
+    <subtitle>Особенности</subtitle>
+    <p>- Очарованное существо получает штраф –4 к проверке Внимательности.</p>
+    <p>- Следопыт получает бонус к проверкам Внимательности при использовании этого навыка против своих заклятых врагов (см. описание класса Следопыт).</p>
+    <p>- Фамильяры, находясь рядом со своим заклинателем, дают им условный бонус к значениям Внимательности и Тонкого слуха на 2 (как умение "Бдительность"). </p>
+   </section>
+   <section>
+    <title>
+     <p>Искусство магии (Spellcraft)</p>
+    </title>
+    <p><strong>Только тренированный</strong></p>
+    <p><strong>Параметр:</strong> Интеллект</p>
+    <p><strong>Штрафы за ношение доспеха:</strong> Нет</p>
+    <p>Применяйте это умение, чтобы идентифицировать заклинания во время сотворения или обнаружить их присутствие. </p>
+    <empty-line/>
+    <subtitle>Проверка</subtitle>
+    <p>Вы можете идентифицировать заклинания и магические эффекты:</p>
+    <p>- С заклинанием "Чтение магии", вы идентифицируете "Охранный Глиф" и подобные заклинания. Без действия (УС 13)</p>
+    <p>- Вы идентифицируете заклинание во время сотворения. (Вы должны видеть или слышать вербальный или соматический компонент). Без действия. Без повтора. (УС 15 + уровень заклинания)</p>
+    <p>- Вы учите заклинание из книги или свитка (обычно, только класс Маг). Без повтора для данного заклинания, пока вы не получите минимум 1 ранг в Искусстве магии (даже если вы нашли другой источник изучения этого заклинания). Требует 8 часов. (УС 15 + уровень заклинания)</p>
+    <p>- Подготовка заклинания из чужой книги (обычно, только класс Маг). Одна попытка в день. Никакого дополнительного времени. (УС 15 + уровень заклинания)</p>
+    <p>- С заклинанием "обнаружить магию" вы определяете школу магии по ауре предмета или существа, которое видите. (Если аура не является эффектом заклинания, то УС 15 + половина уровня заклинателя.) Без действия. (УС 15 + уровень заклинания)</p>
+    <p>- С заклинанием "Обнаружить магию" вы идентифицируете "Символ" и подобные заклинания. Без действия (УС 19)</p>
+    <p>- Вы идентифицируете заклинание, которое уже сотворено и имеет эффект. (Вы должны быть способны видеть или обнаружить эффект заклинания.) Без действия. Без повторов. (УС 20 + уровень заклинания)</p>
+    <p>- Вы идентифицируете материалы, созданные или измененные магией, вроде железной стены из заклинания "Стена железа". Без действия. Без повторов. (УС 20 + уровень заклинания)</p>
+    <p>- Расшифровать написанное заклинание (вроде свитка) без использования заклинания "Чтения магии". Только раз в день. Требует полное действие. (УС 20 + уровень заклинания)</p>
+    <p>- После броска спасброска от заклинания, нацеленного на вас, определяете что это было за заклинание. Без действия. Без повторов. (УС 25 + уровень заклинания)</p>
+    <p>- Определить зелье. Требует 1 минуту. Без повторов. (УС 25)</p>
+    <p>- Нарисовать диаграмму, чтобы улучшить заклинание "Планарный Якорь". Требует 10 минут. Без повторов. Проверку делает Мастер. (УС 20)</p>
+    <p>- Вы понимаете странные или уникальные магические эффекты, вроде магических потоков. Без повторов. (УС 30 и выше)</p>
+    <empty-line/>
+    <subtitle>Особенности</subtitle>
+    <p>- Маг получает бонус осведомлённости +2 к проверкам Искусства магии, когда идентифицирует заклинание из школы магии, на которой специализируется.</p>
+    <p>- Маг получает штраф -5 к проверкам Искусства магии, когда идентифицирует заклинание из запретной для него школы магии.</p>
+    <empty-line/>
+    <subtitle>Синергия</subtitle>
+    <p>Использование магических устройств: +2, при использовании свитков.</p>
+    <p>Бонус к спасброскам: +1, против заклинаний и подобно заклинаниям способностям. </p>
+   </section>
+   <section>
+    <title>
+     <p>Оценка (Appraise)</p>
+    </title>
+    <p><strong>Параметр:</strong> Интеллект</p>
+    <p><strong>Штрафы за ношение доспеха:</strong> Нет</p>
+    <p>Применяйте этот навык для того, чтобы найти антикварную вещь в куче мусора, определить, что старый и причудливо выглядящий меч на самом деле является частью сокровищ эльфов, и отличить высококачественные ювелирные изделия от хороших подделок из дешевых материалов.</p>
+    <empty-line/>
+    <subtitle>Проверка</subtitle>
+    <p>Вы можете оценить обычные или хорошо знакомые вам предметы с УС 12. Неудача означает, что вы определяете стоимость в пределах от 50% до 150% от их реальной стоимости. Мастер втайне бросает 2d6+3, умножает на 10%, умножает реальную стоимость на этот процент и говорит, какова стоимость вещи. (Для обычных или хорошо знакомых вещей шанс определения стоимости в пределах 10% довольно высок, даже если вы проваливаете проверку – все равно, есть возможность посчитать достаточно точно). </p>
+    <p>При оценке редких или экзотических вещей УС будет 15, 20 или выше. Если проверка успешна, то вы определяете ценность предмета очень точно. Неудача означает, что вы не можете определить стоимость.</p>
+    <p>Данный навык также позволит набить цену предметам, которые вы продаёте (указывая на их реальные особенности), или выбить скидку у продавца (указывая на реальные недочёты товара); схоже с проверкой Дипломатии, УС обычно ниже, если продавец не производил этот товар самостоятельно, а лишь перепродаёт его.</p>
+    <empty-line/>
+    <subtitle>Действие</subtitle>
+    <p>Оценка стоимости предмета занимает 1 минуту (10 последовательных полных раундов).</p>
+    <empty-line/>
+    <subtitle>Повторное применение</subtitle>
+    <p>- Нет. Вы не можете попытаться еще раз с тем же объектом, независимо от успеха. То же относится и к попытке набить или сбить цену.</p>
+    <empty-line/>
+    <subtitle>Особенности</subtitle>
+    <p>- Увеличительное стекло дает условный бонус +2 к проверкам Оценки для определения стоимости мелких предметов, например, драгоценных камней. </p>
+    <p>- Весы дают условный бонус +2 к проверке Оценки для предметов, оцениваемых по весу, включая предметы, сделанные из драгоценных металлов. </p>
+    <p>- Если вы делаете проверку без тренировки, при определении стоимости обычных вещей, неудача означает невозможность определения их стоимости, а для редких вещей успех означает определение стоимости в пределах от 50% до 150% (2d6+3 х 10%). </p>
+   </section>
+   <section>
+    <title>
+     <p>Плавание (Swim)</p>
+    </title>
+    <p><strong>Параметр:</strong> Сила</p>
+    <p><strong>Штрафы за ношение доспеха:</strong> Да, х2</p>
+    <p>Применяя этот навык, сухопутное существо может плавать, нырять, исследовать подводные объекты и так далее.</p>
+    <empty-line/>
+    <subtitle>Проверка</subtitle>
+    <p>Делайте проверку Плавания каждый раунд, пока вы находитесь под водой. Успех означает, что вы можете плыть с половиной вашей скорости (в качестве полного действия) или с одной четвертью скорости (в качестве действия, эквивалентного передвижению). Если вы недобираете 4 и меньше очка, то остаетесь без движения. Если на 5 и более – идете под воду (не задыхаетесь).</p>
+    <p>                Если вы под водой (тоните или плаваете), вы должны задержать дыхание. Вы можете задержать дыхание на количество раундов, равное значению вашего Телосложения, но только в том случае, если вы только передвигаетесь под водой, или совершаете свободные действия. Если вы делаете стандартное действие или полное действие (например, атакуете), тогда количество раундов, которое вы можете провести под водой, уменьшается на 1. После того, как истекают эти раунды, вы должны делать проверку Телосложения против УС 10 каждый раунд, пока вы продолжаете задерживать дыхание. Каждый раунд УС возростает на 1. Если вы проваливаете проверку Телосложения, то вы тонете (первый раунд - здоровье 0, без сознания, каждый следующий раунд теряете 1 хит поинт, вплоть до наступления смерти).</p>
+    <p>УС проверки Плавания зависит от характера воды:</p>
+    <p>- Спокойная (УС 10)</p>
+    <p>- Волны (УС 15)</p>
+    <p>- Шторм (УС 20, нельзя "взять 20")</p>
+    <p>Каждый час, что вы плаваете, делайте проверку Плавания против УС 20 или получайте 1d6 единиц временного урона от усталости.</p>
+    <empty-line/>
+    <empty-line/>
+    <subtitle>Действие</subtitle>
+    <p>Успешная проверка Плавания позволяет вам плыть с четвертью скорости в качестве движения, эквивалентного передвижению, или с половиной скорости в качестве полного действия.</p>
+    <empty-line/>
+    <subtitle>Особенности</subtitle>
+    <p>- С умением "Выносливость" вы получаете бонус осведомлённости +4 к навыку Плавания, когда идёт проверка усталости.</p>
+    <p>- Существо со скоростью плавания может двигаться в воде с собственной скоростью без проверок Плавания. Оно также получает расовый бонус +8 ко всем проверкам Плавания при использовании специальных действий, умений или для избегания опасности. Такое существо всегда может "взять 10", даже если его отвлекают или подвергают угрозе при плавании. К тому же, такие существа могут использовать режим бега в воде при движении по прямой. </p>
+   </section>
+   <section>
+    <title>
+     <p>Подделка (Forgery)</p>
+    </title>
+    <p><strong>Параметр:</strong> Интеллект</p>
+    <p><strong>Штрафы за ношение доспеха:</strong> Нет</p>
+    <p>Это умение применяется, чтобы подделать приказ герцогини освободить заключенных, создать карту сокровищ, не отличающуюся от настоящей, или определить подделку, которую кто-то пытается вам всучить.</p>
+    <empty-line/>
+    <subtitle>Проверка</subtitle>
+    <p>Подделка требует письменных принадлежностей, соответствующих документу, который надо подделать, достаточно света (или остроту зрения), чтобы писать, воск для печатей (если нужно), и некоторое время. Чтобы подделать документ, в котором почерк не играет роли (военный приказ, правительственный декрет и прочее), вам нужно только было видеть однажды подобный документ, в таком случае вы получаете бонус +8. Чтобы подделать подпись, вам нужен автограф того человека для копирования, в таком случае вы получаете бонус +4. Для подделки более содержательных документов, написанных определенным почерком, вам потребуется довольно внушительный экземпляр какого-нибудь документа, писанного этим человеком.</p>
+    <p>Мастер делает проверку тайно от вас, так что вы не уверены насколько хороша ваша подделка. Как в случае с Гримировкой, вам даже не нужно делать проверку пока кто-нибудь не обнаружит вашу работу. Ваша проверка Подделки противостоит проверке Подделки персонажа, который будет читать ваш документ.</p>
+    <p>Документ, противоречащий обычным процедурам, приказам или предыдущей информации, или такой, который требует жертвы со стороны персоны, проверяющей документ, может увеличить подозрение (и тем самым создать благоприятные условия для противопоставленного броска проверяющего).</p>
+    <p>Проверяющий получает следующие модификаторы к своей проверке:</p>
+    <p>- Тип документа не знаком читающему (–2 к проверке)</p>
+    <p>- Тип документа в некоторой степени знаком читающему (+0 к проверке)</p>
+    <p>- Тип документа хорошо знаком читающему (+2 к проверке)</p>
+    <p>- Почерк не знаком читающему (–2 к проверке)</p>
+    <p>- Почерк в некоторой степени знаком читающему (+0 к проверке)</p>
+    <p>- Почерк хорошо знаком читающему (+2 к проверке)</p>
+    <p>- Читающий только слегка просматривает документ (–2 к проверке)</p>
+    <p>Помимо писем и документов, с навыком Ремесла можно попытаться подделать предмет, если вы умеете изготавливать подобные. </p>
+    <p>- Вы можете использовать ранги Ремесла вместо рангов Подделки при проверке на подлинность (при условии, что Подделка вкачана хотя бы на 4). </p>
+    <p>- В случае, если вы подделали предмет не сами, а заказали подделку у ремесленника, правила остаются те же (используются значения навыков Ремесла или Подделки ремесленника). </p>
+    <p>- Помните, что ремесленник должен быть в курсе того, что изготавливает подделку, иначе при проверке знающим человеком подвох будет обнаружен сразу.</p>
+    <empty-line/>
+    <empty-line/>
+    <subtitle>Действие</subtitle>
+    <p> - Подделка коротких и простых документов занимает около минуты. Более длинные и сложные занимают 1d4 минут за каждую страницу.</p>
+    <p>- При подделке предмета используется то же время, что и при изготовления предмета навыком Ремесла.</p>
+    <empty-line/>
+    <subtitle>Повторное применение</subtitle>
+    <p> Обычно нет. Повтор невозможен, если определенный человек заметит определенную подделку. Но подделанный документ все еще может одурачить кого-либо еще. Результат проверки Подделки для конкретного документа должен быть использован всякий раз, когда кто-нибудь другой пытается изучить документ. Никто не может повторить попытку обнаружить подделку еще раз; если противопоставленный бросок успешен для поддельщика, то читающий не может снова воспользоваться своим умением, даже если ему документ кажется подозрительным.</p>
+    <empty-line/>
+    <subtitle>Особенности</subtitle>
+    <p> - В случае с письмами и документами, этот навык зависит от языка. Чтобы подделать документ и выявить подделку, необходимо уметь читать и писать на данном языке. К примеру, варвары не могут брать ранги навыка Подделка до тех пор, пока они не научатся читать и писать.</p>
+   </section>
+   <section>
+    <title>
+     <p>Поиск (Search)</p>
+    </title>
+    <p><strong>Параметр:</strong> Интеллект</p>
+    <p><strong>Штрафы за ношение доспеха:</strong> Нет</p>
+    <p>Вы можете находить секретные двери, простые ловушки, скрытые комнаты и другие детали, невидимые на первый взгляд. Навык Поиск позволяет вам заметить прячущегося плута или нечто подобное. Умение Поиск позволяет вам различать некоторые мелкие детали или неточности путем активного усилия.</p>
+    <p>Поиск не позволяет вам находить сложные ловушки, если вы не плут.</p>
+    <empty-line/>
+    <subtitle>Проверка</subtitle>
+    <p>Вы должны быть в пределах 3 метров от объекта или поверхности, которая будет обыскана. </p>
+    <p>- Обыскать сундук с хламом, чтобы найти определенный предмет (УС 10)</p>
+    <p>- Заметить типичную секретную дверь или простую ловушку (УС 20)</p>
+    <p>- Найти сложную немагическую ловушку (только плут) (УС 21+)</p>
+    <p>- Найти магическую ловушку (только плут) (УС 25+ уровень заклинания)</p>
+    <p>- Найти следы (УС Различный)</p>
+    <p>- Заметить хорошо замаскированную секретную дверь (УС 30)</p>
+    <p>Дварфы, даже если они не плуты, могут использовать Поиск, чтобы найти ловушку, построенную из камня или в камне, получая при этом расовый бонус +2 к проверке.</p>
+    <p>Успешная проверка Поиска позволяет найти след или похожий признак бывшего здесь существа, но это не позволит вам последовать по следу без умения "Чтение следов".</p>
+    <empty-line/>
+    <empty-line/>
+    <subtitle>Действие</subtitle>
+    <p> Требуется полный раунд, чтобы обыскать область 1.5 х 1.5 м., или ящик с товаром размерами 1.5 м с каждой стороны.</p>
+    <empty-line/>
+    <subtitle>Особенности</subtitle>
+    <p> - Эльфы получают расовый бонус +2 к проверками Поиска, а полуэльфы получают расовый бонус +1. Эльф (но не полуэльф), просто проходящий в 5 футах от секретной или скрытой двери, может сделать проверку Поиска, чтобы найти эту дверь.</p>
+    <empty-line/>
+    <subtitle>Синергия</subtitle>
+    <p> Выживание: +2, при использовании умения "Чтение следов".</p>
+   </section>
+   <section>
+    <title>
+     <p>Представление (Perform)</p>
+    </title>
+    <p><strong>Параметр:</strong> Харизма</p>
+    <p><strong>Штрафы за ношение доспеха:</strong> Нет</p>
+    <p>Вы искусны в нескольких видах искусства и знаете, как провести выступление.</p>
+    <p>Подобно Ремеслу, Знаниям и Профессии, Представление включает в себя множество отдельных навыков. К примеру, мы владеете навыком Представление (Действо). Ваши ранги в этом навыке не применяются ни к каким проверкам при попытке спеть аудитории ораторию, или сыграть на струнном инструменте. Вы можете иметь различные умения Представления, каждое с собственным рангом, и приобретаемое отдельно.</p>
+    <p>Каждая из девяти категорий умения Представление включает в себя различные методы, инструменты, техники. Небольшой список некоторых из них приведен ниже. Мастер может расширить этот список самостоятельно, или по вашей просьбе:</p>
+    <p>- Действо (комедийное, драматическое, пантомима)</p>
+    <p>- Комедия (буффонада, ирландская частушка (лимерик), травление шуток)</p>
+    <p>- Танец (балет, вальс, жига)</p>
+    <p>- Клавишные инструменты (клавесин, пианино, орган)</p>
+    <p>- Оратория (эпопея, ода, рассказ)</p>
+    <p>- Перкуссия (колокольчики, барабаны, гонги, колокола)</p>
+    <p>- Струнные инструменты (скрипка, арфа, лютня, мандолина)</p>
+    <p>- Духовые инструменты (флейта, рекордер, гобой, труба)</p>
+    <p>- Песня (баллада, песнь, напев)</p>
+    <empty-line/>
+    <empty-line/>
+    <subtitle>Проверка</subtitle>
+    <p> Вы можете впечатлять зрителей вашим талантом и умением.</p>
+    <p>- Будничное представление. Попытка заработать денег, по сути, равносильна выпрашиванию милостыни. Вы зарабатываете 1d10 мм/день. (УС 10)</p>
+    <p>- Приятное представление. В процветающем городе вы можете заработать 1d10 см/день. (УС 15)</p>
+    <p>- Отличное представление. В процветающем городе вы можете заработать 3d10 см/день. Со временем вы можете быть приглашены в профессиональную труппу и приобрести местную известность. (УС 20)</p>
+    <p>- Памятное представление. В процветающем городе вы можете заработать 1d6 зм/день. Со временем вы можете привлечь внимание знатного мецената и приобрести известность в этих краях. (УС 25)</p>
+    <p>- Выдающееся представление. В процветающем городе вы можете заработать 3d6 зм/день. Со временем вы можете привлечь внимание меценатов со всего света и даже из других измерений. (УС 30)</p>
+    <empty-line/>
+    <p>Данный навык является основным для класса Бард, поскольку именно за счёт проверок Представления работает его умение "Песнь барда" (см. описание класса Бард)</p>
+    <empty-line/>
+    <subtitle>Действие</subtitle>
+    <empty-line/>
+    <empty-line/>
+    <empty-line/>
+    <subtitle>Повторное применение</subtitle>
+    <empty-line/>
+    <empty-line/>
+    <empty-line/>
+    <subtitle>Особенности</subtitle>
+    <p> - Инструмент мастерской работы даёт условный бонус +2 к навыку Выступления. Это может быть как музыкальный инструмент, так и различные детали и элементы выступления (платье для танца, метроном для певца и прочее).</p>
+    <empty-line/>
+    <empty-line/>
+    <subtitle>Синергия</subtitle>
+    <empty-line/>
+    <empty-line/>
+   </section>
+   <section>
+    <title>
+     <p>Название (Name)</p>
+    </title>
+    <p><strong>Параметр:</strong> </p>
+    <p><strong>Штрафы за ношение доспеха:</strong> </p>
+    <empty-line/>
+    <subtitle>Проверка</subtitle>
+    <empty-line/>
+    <subtitle>Действие</subtitle>
+    <empty-line/>
+    <subtitle>Повторное применение</subtitle>
+    <empty-line/>
+    <subtitle>Особенности</subtitle>
+    <empty-line/>
+    <subtitle>Синергия</subtitle>
+    <empty-line/>
+   </section>
+  </section>
+ </body>
+</FictionBook>

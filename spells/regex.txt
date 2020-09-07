@@ -1,0 +1,2 @@
+===дл€ заголовков
+([A-Za-z -,Т(<br>)]+){1}(<br>){1}(Conjuration|Illusion|Necromancy|Transmutation|Abjuration|Divination|Evocation|Enchantment|Universal){1}

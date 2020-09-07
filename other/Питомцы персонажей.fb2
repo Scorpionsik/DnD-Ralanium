@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0" xmlns:l="http://www.w3.org/1999/xlink">
+ <description>
+  <title-info>
+   <genre>sf_fantasy</genre>
+   <author>
+    <first-name></first-name>
+    <last-name></last-name>
+   </author>
+   <book-title>Питомцы персонажей</book-title>
+   <annotation>
+    <p>Введите сюда краткую аннотацию</p>
+   </annotation>
+   <date></date>
+   <lang>ru</lang>
+  </title-info>
+  <document-info>
+   <author>
+    <first-name>Your</first-name>
+    <last-name>Name</last-name>
+   </author>
+   <program-used>FictionBook Editor Release 2.6.7</program-used>
+   <date value="2014-11-10">10 November 2014</date>
+   <id>1376E301-B938-4226-8B2C-02121DE69DAE</id>
+   <version>1.0</version>
+   <history>
+    <p>1.0 — создание файла</p>
+   </history>
+  </document-info>
+ </description>
+ <body>
+  <section>
+   <title>
+    <p>Варианты роя</p>
+   </title>
+   <section>
+    <title>
+     <p>Рой летучих мышей (Bat Swarm)</p>
+    </title>
+    <p>Size/Type: Diminutive Animal (Swarm) </p>
+    <p>Hit Dice: 3d8 (13 hp) </p>
+    <p>Initiative: +2 </p>
+    <p>Speed: 5 ft. (1 square), fly 40 ft. (good) </p>
+    <p>Armor Class: 16 (+4 size, +2 Dex), touch 14, flat-footed 12 </p>
+    <p>Base Attack/Grapple: +2/— </p>
+    <p>Attack: Swarm (1d6) </p>
+    <p>Full Attack: Swarm (1d6) </p>
+    <p>Space/Reach: 10 ft./0 ft. </p>
+    <p>Special Attacks: Distraction, wounding </p>
+    <p>Special Qualities: Blindsense 20 ft., immune to weapon damage, low-light vision, swarm traits </p>
+    <p>Saves: Fort +3, Ref +7, Will +3 </p>
+    <p>Abilities: Str 3, Dex 15, Con 10, Int 2, Wis 14, Cha 4 </p>
+    <p>Skills: Listen +11, Spot +11 </p>
+    <p>Feats: Alertness, Lightning Reflexes </p>
+    <p>Environment: Temperate deserts </p>
+    <p>Organization: Solitary, flight (2-4 swarms), or colony (11-20 swarms) </p>
+    <p>Challenge Rating: 2 </p>
+    <p>Treasure: None </p>
+    <p>Alignment: Always neutral </p>
+    <p>Advancement: None </p>
+    <p>Level Adjustment: — </p>
+    <p>A bat swarm is nocturnal, and is never found aboveground in daylight.</p>
+    <subtitle>Combat</subtitle>
+    <p>A bat swarm seeks to surround and attack any warm-blooded prey it encounters. The swarm deals 1d6 points of damage to any creature whose space it occupies at the end of its move.</p>
+    <p>Distraction (<a l:href="https://www.d20srd.org/srd/specialAbilities.htm#extraordinaryAbilities">Ex</a>)</p>
+    <p>Any living creature that begins its turn with a swarm in its space must succeed on a DC 11 <a l:href="https://www.d20srd.org/srd/combat/combatStatistics.htm#fortitude">Fortitude save</a> or be <a l:href="https://www.d20srd.org/srd/conditionSummary.htm#nauseated">nauseated</a> for 1 round. The save DC is Constitution-based.</p>
+    <p>Wounding (<a l:href="https://www.d20srd.org/srd/specialAbilities.htm#extraordinaryAbilities">Ex</a>)</p>
+    <p>Any living creature damaged by a bat swarm continues to bleed, losing 1 hit point per round thereafter. Multiple wounds do not result in cumulative bleeding loss. The bleeding can be stopped by a DC 10 <a l:href="https://www.d20srd.org/srd/skills/heal.htm">Heal</a> check or the application of a cure spell or some other healing magic.</p>
+    <p><a l:href="https://www.d20srd.org/srd/specialAbilities.htm#blindsightAndBlindsense">Blindsense</a> (<a l:href="https://www.d20srd.org/srd/specialAbilities.htm#extraordinaryAbilities">Ex</a>)</p>
+    <p>A bat swarm notices and locates creatures within 20 feet. Opponents still have <a l:href="https://www.d20srd.org/srd/combat/combatModifiers.htm#totalConcealment">total concealment</a> against the bat swarm (but swarm attacks ignore concealment).</p>
+    <p>Skills</p>
+    <p>A bat swarm has a +4 racial bonus on <a l:href="https://www.d20srd.org/srd/skills/listen.htm">Listen</a> and <a l:href="https://www.d20srd.org/srd/skills/spot.htm">Spot</a> checks. These bonuses are lost if its <a l:href="https://www.d20srd.org/srd/specialAbilities.htm#blindsightAndBlindsense">blindsense</a> is negated.</p>
+   </section>
+   <section>
+    <title>
+     <p>Рой крыс (Rat Swarm)</p>
+    </title>
+    <p>Size/Type: Tiny Animal (Swarm) </p>
+    <p>Hit Dice: 4d8 (18 hp) </p>
+    <p>Initiative: +2 </p>
+    <p>Speed: 15 ft. (3 squares), climb 15 ft. </p>
+    <p>Armor Class: 14 (+2 size, +2 Dex), touch 14, flat-footed 12 </p>
+    <p>Base Attack/Grapple: +3/— </p>
+    <p>Attack: Swarm (1d6 plus disease) </p>
+    <p>Full Attack: Swarm (1d6 plus disease) </p>
+    <p>Space/Reach: 10 ft./0 ft. </p>
+    <p>Special Attacks: Disease, distraction </p>
+    <p>Special Qualities: Half damage from slashing and piercing, low-light vision, scent, swarm traits</p>
+    <p> Saves: Fort +4, Ref +6, Will +2 </p>
+    <p>Abilities: Str 2, Dex 15, Con 10, Int 2, Wis 12, Cha 2 </p>
+    <p>Skills: Balance +10, Climb +10, Hide +16, Listen +6, Move Silently +8, Spot +7, Swim +10 </p>
+    <p>Feats: Alertness, Stealthy, Weapon Finesse </p>
+    <p>Environment: Any </p>
+    <p>Organization: Solitary, pack (2-4 swarms), or infestation (7-12 swarms) </p>
+    <p>Challenge Rating: 2 </p>
+    <p>Treasure: None </p>
+    <p>Alignment: Always neutral </p>
+    <p>Advancement: None </p>
+    <p>Level Adjustment: — </p>
+    <subtitle>Combat</subtitle>
+    <p>A rat swarm seeks to surround and attack any warm-blooded prey it encounters. A swarm deals 1d6 points of damage to any creature whose space it occupies at the end of its move.</p>
+    <p><a l:href="https://www.d20srd.org/srd/specialAbilities.htm#disease">Disease</a> (<a l:href="https://www.d20srd.org/srd/specialAbilities.htm#extraordinaryAbilities">Ex</a>)</p>
+    <p><a l:href="https://www.d20srd.org/srd/specialAbilities.htm#filthFever">Filth fever</a>—swarm attack, Fortitude DC 12, incubation period 1d3 days, damage 1d3 Dex and 1d3 Con. The save DC is Constitution-based.</p>
+    <p>Distraction (<a l:href="https://www.d20srd.org/srd/specialAbilities.htm#extraordinaryAbilities">Ex</a>)</p>
+    <p>Any living creature that begins its turn with a swarm in its square must succeed on a DC 12 <a l:href="https://www.d20srd.org/srd/combat/combatStatistics.htm#fortitude">Fortitude save</a> or be <a l:href="https://www.d20srd.org/srd/conditionSummary.htm#nauseated">nauseated</a> for 1 round. The save DC is Constitution-based.</p>
+    <p>Skills</p>
+    <p>A rat swarm has a +4 racial bonus on <a l:href="https://www.d20srd.org/srd/skills/hide.htm">Hide</a> and <a l:href="https://www.d20srd.org/srd/skills/moveSilently.htm">Move Silently</a> checks, and a +8 racial bonus on <a l:href="https://www.d20srd.org/srd/skills/balance.htm">Balance</a>, <a l:href="https://www.d20srd.org/srd/skills/climb.htm">Climb</a>, and <a l:href="https://www.d20srd.org/srd/skills/swim.htm">Swim</a> checks. A rat swarm can always choose to <a l:href="https://www.d20srd.org/srd/skills/usingSkills.htm#taking10">take 10</a> on all <a l:href="https://www.d20srd.org/srd/skills/climb.htm">Climb</a> checks, even if rushed or threatened. A rat swarm uses its Dexterity modifier instead of its Strength modifier for <a l:href="https://www.d20srd.org/srd/skills/climb.htm">Climb</a> and <a l:href="https://www.d20srd.org/srd/skills/swim.htm">Swim</a> checks. A rat swarm has a +8 racial bonus on any <a l:href="https://www.d20srd.org/srd/skills/swim.htm">Swim</a> check to perform some special action or avoid a hazard. It can always choose to <a l:href="https://www.d20srd.org/srd/skills/usingSkills.htm#taking10">take 10</a> on a <a l:href="https://www.d20srd.org/srd/skills/swim.htm">Swim</a> check, even if distracted or endangered. It can use the <a l:href="https://www.d20srd.org/srd/combat/actionsInCombat.htm#run">run</a> action while swimming, provided it swims in a straight line.</p>
+   </section>
+   <section>
+    <title>
+     <p>Рой пауков (Spider Swarm)</p>
+    </title>
+    <p>Size/Type: Diminutive Vermin (Swarm) </p>
+    <p>Hit Dice: 2d8 (9 hp) </p>
+    <p>Initiative: +3 </p>
+    <p>Speed: 20 ft. (4 squares), climb 20 ft. </p>
+    <p>Armor Class: 17 (+4 size, +3 Dex), touch 17, flat-footed 14 </p>
+    <p>Base Attack/Grapple: +1/— </p>
+    <p>Attack: Swarm (1d6 plus poison) </p>
+    <p>Full Attack: Swarm (1d6 plus poison) </p>
+    <p>Space/Reach: 10 ft./0 ft. </p>
+    <p>Special Attacks: Distraction, poison </p>
+    <p>Special Qualities: Darkvision 60 ft., immune to weapon damage, swarm traits, tremorsense 30 ft., vermin traits </p>
+    <p>Saves: Fort +3, Ref +3, Will +0 </p>
+    <p>Abilities: Str 1, Dex 17, Con 10, Int Ø, Wis 10, Cha 2 </p>
+    <p>Skills: Climb +11, Listen +4, Spot +4 </p>
+    <p>Environment: Warm forests </p>
+    <p>Organization: Solitary, tangle (2-4 swarms), or colony (7-12 swarms) </p>
+    <p>Challenge Rating: 1 </p>
+    <p>Treasure: None </p>
+    <p>Alignment: Always neutral </p>
+    <p>Advancement: None </p>
+    <p>Level Adjustment: — </p>
+    <subtitle>Combat</subtitle>
+    <p>A spider swarm seeks to surround and attack any living prey it encounters. A swarm deals 1d6 points of damage to any creature whose space it occupies at the end of its move.</p>
+    <p>Distraction (<a l:href="https://www.d20srd.org/srd/specialAbilities.htm#extraordinaryAbilities">Ex</a>)</p>
+    <p>Any living creature that begins its turn with a spider swarm in its space must succeed on a DC 11 <a l:href="https://www.d20srd.org/srd/combat/combatStatistics.htm#fortitude">Fortitude save</a> or be <a l:href="https://www.d20srd.org/srd/conditionSummary.htm#nauseated">nauseated</a> for 1 round. The save DC is Constitution-based.</p>
+    <p><a l:href="https://www.d20srd.org/srd/specialAbilities.htm#poison">Poison</a> (<a l:href="https://www.d20srd.org/srd/specialAbilities.htm#extraordinaryAbilities">Ex</a>)</p>
+    <p>Injury, Fortitude DC 11, initial and secondary damage 1d3 Str. The save DC is Constitution-based.</p>
+    <p>Skills</p>
+    <p>A spider swarm has a +4 racial bonus on <a l:href="https://www.d20srd.org/srd/skills/hide.htm">Hide</a> and <a l:href="https://www.d20srd.org/srd/skills/spot.htm">Spot</a> checks and a +8 racial bonus on <a l:href="https://www.d20srd.org/srd/skills/climb.htm">Climb</a> checks. It uses its Dexterity modifier instead of its Strength modifier for <a l:href="https://www.d20srd.org/srd/skills/climb.htm">Climb</a> checks. It can always choose to <a l:href="https://www.d20srd.org/srd/skills/usingSkills.htm#taking10">take 10</a> on a <a l:href="https://www.d20srd.org/srd/skills/climb.htm">Climb</a> check, even if rushed or threatened.</p>
+   </section>
+  </section>
+ </body>
+</FictionBook>
