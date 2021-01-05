@@ -8,6 +8,8 @@
 (Summoning) = (Призывание)
 (Figment) = (Вымысел)
 (Pattern) = (Узоры)
+(Shadow) = (Тень)
+(Phantasm) = (Фантазм)
 
 [Acid] = [Кислота]
 [Air] = [Воздух]
